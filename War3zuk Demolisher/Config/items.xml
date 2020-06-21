@@ -1,0 +1,22 @@
+<configs>
+	
+<append xpath="/items">
+	
+<item name="meleeHandZombieDemolisherArson">
+	<property name="Extends" value="meleeHandZombieBurningFeral"/>
+	<property name="CreativeMode" value="None"/>
+  	<property class="Action0">
+		<property name="DamageEntity" value="20"/>
+		<property name="DamageBlock" value="20"/>
+	</property>
+	<effect_group name="meleeHandZombieBurningFeral" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffBurningZombie"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
+		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="45"/>
+	</effect_group>
+</item>
+
+</append>
+</configs>

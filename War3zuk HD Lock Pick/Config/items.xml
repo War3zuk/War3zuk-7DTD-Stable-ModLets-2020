@@ -1,0 +1,41 @@
+<configs>
+	
+	<append xpath="/items">
+		
+		<item name="HD Lock Pick">	
+			<property name="CustomIcon" value="HD Lock Pick" />
+			<property name="Tags" value="knife,melee,light,tool,lockpick"/>
+			<property name="DisplayType" value="adminRanged"/>
+			<property name="HoldType" value="29"/>
+			<property name="Meshfile" value="#@modfolder:Resources/HDLockPick.unity3d?HDLockPick.Prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="RepairTools" value="resourceScrapIron"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="DescriptionKey" value="HDLPDesc"/>
+			<property name="DegradationBreaksAfter" value="true"/>
+			<property name="SoundJammed" value="weapon_jam"/>
+			<property name="CrosshairUpAfterShot" value="true"/>
+			<property name="CrosshairOnAim" value="true"/>
+			<property class="Action1"> 
+				<property name="Class" value="Repair"/>
+				<property name="Delay" value="1"/> 
+				<property name="Repair_amount" value="100"/>
+				<property name="Upgrade_hit_offset" value="0"/>
+				<property name="Sound_start" value="repair_block"/>
+				<property name="Allowed_upgrade_items" value="HD Lock Pick,resourceForgedIron"/>
+				<property name="UsePowerAttackAnimation" value="false"/>
+			</property>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="MaxRange" operation="base_set" value="200"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="6000"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="0"/>
+			</effect_group>
+			<property name="Group" value="Tools/Traps,Basics"/>
+			<property name="ActionSkillGroup" value="Construction Tools"/>
+			<property name="CraftingSkillGroup" value="craftSkillTools"/>
+			<property name="RepairExpMultiplier" value="5.5"/>
+		</item>
+		
+	</append>
+</configs>

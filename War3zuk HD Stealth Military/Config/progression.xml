@@ -1,0 +1,5 @@
+<configs>
+
+	<append xpath="/progression/perks/perk[@name='perkLightArmor']/effect_group/passive_effect[@level='1,5']/@tags">,HD Military Vest,HD Military Gloves,HD Military Legs,HD Military Boots,HD Military Helmet</append>
+	
+</configs>

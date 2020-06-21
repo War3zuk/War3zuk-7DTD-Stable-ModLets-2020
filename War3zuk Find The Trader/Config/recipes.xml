@@ -1,0 +1,10 @@
+<configs>
+	
+<append xpath="/recipes">
+
+<recipe name="Find The Trader" count="1" craft_time = "1">
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+
+</append>
+</configs>

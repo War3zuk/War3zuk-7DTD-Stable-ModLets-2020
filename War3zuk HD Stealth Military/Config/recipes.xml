@@ -1,0 +1,46 @@
+<configs>
+	
+    <append xpath="/recipes">
+		
+<recipe name="HD Military Vest" count="1" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
+	
+<recipe name="HD Military Gloves" count="1" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
+		
+<recipe name="HD Military Legs" count="1" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
+	
+<recipe name="HD Military Boots" count="1" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
+	
+<recipe name="HD Military Helmet" count="1" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
+		
+</append>
+</configs>

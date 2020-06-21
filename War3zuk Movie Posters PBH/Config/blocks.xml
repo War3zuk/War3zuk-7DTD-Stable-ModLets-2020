@@ -1,0 +1,286 @@
+<War3zuk>
+	
+<append xpath="/blocks">
+	
+<block name="HD ZTPH 011">
+	<property name="CustomIcon" value="HD ZTPH 011"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mglass"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 011.Prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
+	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HiddenHD ZTPH 011">
+	<property name="Extends" value="HD ZTPH 011"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD ZTPH 011"/>
+	<property name="DowngradeBlock" value="cntWallSafe"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HD ZTPH 012">
+	<property name="CustomIcon" value="HD ZTPH 012"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mglass"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 012.Prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
+	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HiddenHD ZTPH 012">
+	<property name="Extends" value="HD ZTPH 012"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD ZTPH 012"/>
+	<property name="DowngradeBlock" value="cntWallSafe"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HD ZTPH 013">
+	<property name="CustomIcon" value="HD ZTPH 013"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mglass"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 013.Prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
+	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HiddenHD ZTPH 013">
+	<property name="Extends" value="HD ZTPH 013"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD ZTPH 013"/>
+	<property name="DowngradeBlock" value="cntWallSafe"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HD ZTPH 014">
+	<property name="CustomIcon" value="HD ZTPH 014"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mglass"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 014.Prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
+	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HiddenHD ZTPH 014">
+	<property name="Extends" value="HD ZTPH 014"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD ZTPH 014"/>
+	<property name="DowngradeBlock" value="cntWallSafe"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HD ZTPH 015">
+	<property name="CustomIcon" value="HD ZTPH 015"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mglass"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 015.Prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
+	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HiddenHD ZTPH 015">
+	<property name="Extends" value="HD ZTPH 015"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD ZTPH 015"/>
+	<property name="DowngradeBlock" value="cntWallSafe"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HD ZTPH 016">
+	<property name="CustomIcon" value="HD ZTPH 016"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mglass"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 016.Prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
+	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HiddenHD ZTPH 016">
+	<property name="Extends" value="HD ZTPH 016"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD ZTPH 016"/>
+	<property name="DowngradeBlock" value="cntWallSafe"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HD ZTPH 017">
+	<property name="CustomIcon" value="HD ZTPH 017"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mglass"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 017.Prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
+	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HiddenHD ZTPH 017">
+	<property name="Extends" value="HD ZTPH 017"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD ZTPH 017"/>
+	<property name="DowngradeBlock" value="cntWallSafe"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HD ZTPH 018">
+	<property name="CustomIcon" value="HD ZTPH 018"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mglass"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 018.Prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
+	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HiddenHD ZTPH 018">
+	<property name="Extends" value="HD ZTPH 018"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD ZTPH 018"/>
+	<property name="DowngradeBlock" value="cntWallSafe"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HD ZTPH 019">
+	<property name="CustomIcon" value="HD ZTPH 019"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mglass"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 019.Prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
+	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HiddenHD ZTPH 019">
+	<property name="Extends" value="HD ZTPH 019"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD ZTPH 019"/>
+	<property name="DowngradeBlock" value="cntWallSafe"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HD ZTPH 020">
+	<property name="CustomIcon" value="HD ZTPH 020"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mglass"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 020.Prefab"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="IsDecoration" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
+	<property name="FilterTags" value="fdecor,fother"/>
+	<property name="SortOrder1" value="7000"/>
+	<property name="SortOrder2" value="0002"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+<block name="HiddenHD ZTPH 020">
+	<property name="Extends" value="HD ZTPH 020"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD ZTPH 020"/>
+	<property name="DowngradeBlock" value="cntWallSafe"/>
+	<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+</block>
+
+</append>		
+</War3zuk>

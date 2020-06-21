@@ -1,0 +1,2 @@
+Key,Source,Context,Changes,English
+AFAKDesc,items,Medical,New,A More advanced version of the Medical Kit with Max Healing

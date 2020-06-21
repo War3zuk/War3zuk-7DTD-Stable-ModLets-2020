@@ -1,0 +1,5 @@
+<configs>
+
+	<append xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group/passive_effect[@level='1,5']/@tags">,HD Auger,HD Chainsaw</append>
+	
+</configs>

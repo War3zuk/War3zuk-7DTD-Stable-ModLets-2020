@@ -1,0 +1,65 @@
+<configs>
+	
+<append xpath="/blocks">
+
+<block name="Wars Building Supply Crate">
+	<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs" />
+    <property name="Material" value="Mwood_weak" />
+	<property name="DisplayInfo" value="Name"/>
+    <property name="Texture" value="419,419,572,572,572,572" />
+    <drop event="Destroy" name="wood" count="4" />
+    <property name="DowngradeBlock" value="Building Supplys" />
+</block>
+
+<block name="Building Supplys">
+	<property name="Extends" value="cntGarageStorage"/>
+	<property name="LootList" value="507"/>
+</block>
+
+<block name="Wars Health Supply Crate">
+	<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs" />
+    <property name="Material" value="Mwood_weak" />
+	<property name="DisplayInfo" value="Name"/>
+    <property name="Texture" value="284,284,572,572,572,572" />
+	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab" />
+    <drop event="Destroy" name="wood" count="4" />
+    <property name="DowngradeBlock" value="Health Supplys" />
+</block>
+
+<block name="Health Supplys">
+	<property name="Extends" value="cntGarageStorage"/>
+	<property name="LootList" value="508"/>
+</block>
+
+<block name="Wars Ammo Supply Crate">
+	<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs" />
+    <property name="Material" value="Mwood_weak" />
+	<property name="DisplayInfo" value="Name"/>
+    <property name="Texture" value="418,418,572,572,572,572" />
+	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab" />
+    <drop event="Destroy" name="wood" count="4" />
+    <property name="DowngradeBlock" value="Ammo Supplys" />
+</block>
+
+<block name="Ammo Supplys">
+	<property name="Extends" value="cntGarageStorage"/>
+	<property name="LootList" value="509"/>
+</block>
+
+<block name="Wars Food Supply Crate">
+	<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs" />
+    <property name="Material" value="Mwood_weak" />
+	<property name="DisplayInfo" value="Name"/>
+    <property name="Texture" value="421,421,572,572,572,572" />
+	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab" />
+    <drop event="Destroy" name="wood" count="4" />
+    <property name="DowngradeBlock" value="Food Supplys" />
+</block>
+
+<block name="Food Supplys">
+	<property name="Extends" value="cntGarageStorage"/>
+	<property name="LootList" value="510"/>
+</block>
+
+</append>
+</configs>

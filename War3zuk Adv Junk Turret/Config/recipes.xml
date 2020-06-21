@@ -1,0 +1,22 @@
+<configs>
+	
+	<append xpath="/recipes">
+
+<recipe name="HD Junk Turret 9mm" count="1" craft_time = "60" tags="perkTurrets">
+	<ingredient name="gunJunkTurret" count="1"/>
+	<ingredient name="gunJunkTurretParts" count="2"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HD Junk Turret 762mm" count="1" craft_time = "100" tags="perkTurrets">
+	<ingredient name="gunJunkTurret" count="1"/>
+	<ingredient name="gunJunkTurretParts" count="4"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+	
+</append>
+</configs>

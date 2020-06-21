@@ -1,0 +1,31 @@
+<configs>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='11']" >
+		<item group="groupSafeLoot"/>
+		<item name="HD Generator Schematic" count="1" prob="0.01"/>
+		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='12']" >
+		<item group="junk"/>
+		<item group="groupAmmoRegular"/>
+		<item group="books" prob="0.1"/>
+		<item group="dyes" prob="0.09"/>
+		<item name="meleeToolPaintTool" prob="0.04"/>
+		<item name="HD Generator Schematic" count="1" prob="0.1"/>
+		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='53']" >
+		<item group="workingStiffs"/>
+		<item name="HD Generator Schematic" count="1" prob="0.1"/>
+		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='60']" >
+		<item group="books" count="1,2" prob="0.3"/>
+		<item name="HD Generator Schematic" count="1" prob="0.1"/>
+		<item name="HD Gas Generator Schematic" count="1" prob="0.01"/>
+	</append>
+
+</configs>

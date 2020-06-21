@@ -1,0 +1,208 @@
+<configs>
+
+	<append xpath="/items">
+
+<item name="Disassemble 9mm Ammo 10">
+	<property name="CustomIcon" value="D9A10Desc"/>
+	<property name="DescriptionKey" value="D9A10Desc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="30000"/>
+	<property name="Weight" value="0"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+		<property name="Create_item_count" value="5,5,5"/>
+	</property>
+</item>
+
+<item name="Disassemble HP 9mm Ammo 10">
+	<property name="Extends" value="Disassemble 9mm Ammo 10"/>
+	<property name="CustomIcon" value="DHP9A10Desc"/>
+	<property name="DescriptionKey" value="DHP9A10Desc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+		<property name="Create_item_count" value="5,5,10"/>
+	</property>
+</item>
+
+<item name="Disassemble AP 9mm Ammo 10">
+	<property name="Extends" value="Disassemble 9mm Ammo 10"/>
+	<property name="CustomIcon" value="DAP9A10Desc"/>
+	<property name="DescriptionKey" value="DAP9A10Desc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+		<property name="Create_item_count" value="5,10,5"/>
+	</property>
+</item>
+
+<item name="Disassemble 44 Magnum Ammo 10">
+	<property name="Extends" value="Disassemble 9mm Ammo 10"/>
+	<property name="CustomIcon" value="D44MA10Desc"/>
+	<property name="DescriptionKey" value="D44MA10Desc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+		<property name="Create_item_count" value="5,15,5"/>
+	</property>
+</item>
+
+<item name="Disassemble HP 44 Magnum Ammo 10">
+	<property name="Extends" value="Disassemble 9mm Ammo 10"/>
+	<property name="CustomIcon" value="DHP44MA10Desc"/>
+	<property name="DescriptionKey" value="DHP44MA10Desc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+		<property name="Create_item_count" value="5,15,10"/>
+	</property>
+</item>
+
+<item name="Disassemble AP 44 Magnum Ammo 10">
+	<property name="Extends" value="Disassemble 9mm Ammo 10"/>
+	<property name="CustomIcon" value="DAP44MA10Desc"/>
+	<property name="DescriptionKey" value="DAP44MA10Desc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+		<property name="Create_item_count" value="5,25,5"/>
+	</property>
+</item>
+
+<item name="Disassemble 7.62mm Ammo 10">
+	<property name="Extends" value="Disassemble 9mm Ammo 10"/>
+	<property name="CustomIcon" value="D762A10Desc"/>
+	<property name="DescriptionKey" value="D762A10Desc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+		<property name="Create_item_count" value="5,15,5"/>
+	</property>
+</item>
+
+<item name="Disassemble HP 7.62mm Ammo 10">
+	<property name="Extends" value="Disassemble 9mm Ammo 10"/>
+	<property name="CustomIcon" value="DHP762A10Desc"/>
+	<property name="DescriptionKey" value="DHP762A10Desc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+		<property name="Create_item_count" value="5,15,10"/>
+	</property>
+</item>
+
+<item name="Disassemble AP 7.62mm Ammo 10">
+	<property name="Extends" value="Disassemble 9mm Ammo 10"/>
+	<property name="CustomIcon" value="DAP762A10Desc"/>
+	<property name="DescriptionKey" value="DAP762A10Desc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+		<property name="Create_item_count" value="5,25,5"/>
+	</property>
+</item>
+
+<item name="Disassemble Blunderbuss Ammo 10">
+	<property name="Extends" value="Disassemble 9mm Ammo 10"/>
+	<property name="CustomIcon" value="DBA10Desc"/>
+	<property name="DescriptionKey" value="DBA10Desc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="resourceRockSmall,resourceGunPowder,resourcePaper"/>
+		<property name="Create_item_count" value="5,5,5"/>
+	</property>
+</item>
+
+<item name="Disassemble Shotgun Shell Ammo 10">
+	<property name="Extends" value="Disassemble 9mm Ammo 10"/>
+	<property name="CustomIcon" value="DSSA10Desc"/>
+	<property name="DescriptionKey" value="DSSA10Desc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourcePaper"/>
+		<property name="Create_item_count" value="5,10,5"/>
+	</property>
+</item>
+
+<item name="Disassemble Shotgun Slug Ammo 10">
+	<property name="Extends" value="Disassemble 9mm Ammo 10"/>
+	<property name="CustomIcon" value="DSSlugA10Desc"/>
+	<property name="DescriptionKey" value="DSSlugA10Desc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="resourceScrapPolymers,resourceGunPowder,resourceBulletTip"/>
+		<property name="Create_item_count" value="5,15,15"/>
+	</property>
+</item>
+
+<item name="Disassemble Shotgun Breaching Slug Ammo 10">
+	<property name="Extends" value="Disassemble 9mm Ammo 10"/>
+	<property name="CustomIcon" value="DSBreachSA10Desc"/>
+	<property name="DescriptionKey" value="DSBreachSA10Desc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="resourceForgedSteel,resourceClayLump,resourceGunPowder,resourceScrapPolymers"/>
+		<property name="Create_item_count" value="20,10,20,5"/>
+	</property>
+</item>
+
+<item name="Disassemble Molotov Cocktail 10">
+	<property name="Extends" value="Disassemble 9mm Ammo 10"/>
+	<property name="CustomIcon" value="DMC10Desc"/>
+	<property name="DescriptionKey" value="DMC10Desc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="resourceCloth,ammoGasCan,resourceOil,drinkJarEmpty"/>
+		<property name="Create_item_count" value="5,1500,5,5"/>
+	</property>
+</item>
+		
+</append>
+</configs>

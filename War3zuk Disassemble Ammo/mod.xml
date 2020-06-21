@@ -1,0 +1,10 @@
+<mod>
+	<info>
+		<author>War3zuk/Tallon</author>
+		<name>War3zuk Disassemble Ammo</name>
+		<description>Disassemble Basic ammo types into half their base resources</description>
+		<mod_version>1.0</mod_version>
+		<game_version>18.1</game_version>
+		<launcher_version>0.0.0</launcher_version>
+	</info>
+</mod>

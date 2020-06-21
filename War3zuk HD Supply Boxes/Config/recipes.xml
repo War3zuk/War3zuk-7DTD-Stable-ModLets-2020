@@ -1,0 +1,48 @@
+<configs>
+	
+<append xpath="/recipes">
+		
+<recipe name="HD Ammo Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+		
+<recipe name="HD Building Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+		
+<recipe name="HD Forge Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+		
+<recipe name="HD Fuel Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+		
+<recipe name="HD Medical Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+		
+<recipe name="HD Duke Coin Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+		
+<recipe name="HD Grocery Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+		
+</append>
+</configs>

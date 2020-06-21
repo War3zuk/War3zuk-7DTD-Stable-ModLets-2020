@@ -1,0 +1,142 @@
+<configs>
+	
+	<append xpath="/items">
+
+<item name="HD Military Helmet">
+	<property name="Extends" value="armorMilitaryMaster" param1="CustomIcon"/>
+	<property name="Tags" value="head,armor,armorHead,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="CustomIcon" value="HD Military Helmet"/>
+	<property name="DescriptionKey" value="HDMASDesc"/>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="9.6,13"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1000,2000" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
+		<passive_effect name="Mobility" operation="perc_add" value="-.01"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0001" tags="walking"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0001" tags="running"/>
+		<display_value name="dStaminaChangeOT" value="-.100"/>
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value=".001"/><display_value name="dNoiseMultiplier" value=".01"/>
+		<passive_effect name="BuffResistance" operation="base_add" value=".150,.160" tags="buffInfectionCatch,buffInjuryBleeding,buffInjuryStunned01"/><passive_effect name="BuffResistance" operation="base_add" value=".05" tags="buffInfectionCatch"/><passive_effect name="BuffResistance" operation="base_add" value=".02" tags="buffInjuryBleeding"/>
+	</effect_group>
+	<property class="UMA">
+		<property name="Mesh" value="gear_kevlar_helmet"/>
+		<property name="Overlay0" value="gear_kevlar_helmet"/>
+		<property name="Layer" value="2"/>
+		<property name="UISlot" value="Headgear"/>
+		<property name="ShowAltHair" value="true"/>
+	</property>
+</item>
+
+<item name="HD Military Vest">
+	<property name="Extends" value="armorMilitaryMaster" param1="CustomIcon"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="CustomIcon" value="HD Military Vest"/>
+	<property name="DescriptionKey" value="HDMASDesc"/>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="9.6,13"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1000,2000" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
+		<passive_effect name="Mobility" operation="perc_add" value="-.01"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0001" tags="walking"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0001" tags="running"/>
+		<display_value name="dStaminaChangeOT" value="-.100"/>
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value=".001"/><display_value name="dNoiseMultiplier" value=".01"/>
+		<passive_effect name="BuffResistance" operation="base_add" value=".150,.160" tags="buffInfectionCatch,buffInjuryBleeding,buffInjuryStunned01"/><passive_effect name="BuffResistance" operation="base_add" value=".05" tags="buffInfectionCatch"/><passive_effect name="BuffResistance" operation="base_add" value=".02" tags="buffInjuryBleeding"/>
+	</effect_group>
+	<property class="UMA">
+		<property name="Mesh" value="armor_kevlar_vest"/>
+		<property name="Overlay0" value="armor_kevlar_vest"/>
+		<property name="Layer" value="2"/>
+		<property name="UISlot" value="ChestArmor"/>
+	</property>
+</item>
+
+<item name="HD Military Gloves">
+	<property name="Extends" value="armorMilitaryMaster" param1="CustomIcon"/>
+	<property name="Tags" value="upperbody,hands,armor,armorHands,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
+	<property name="EquipSlot" value="Hands"/>
+	<property name="CustomIcon" value="HD Military Gloves"/>
+	<property name="DescriptionKey" value="HDMASDesc"/>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="9.6,13"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1000,2000" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
+		<passive_effect name="Mobility" operation="perc_add" value="-.01"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0001" tags="walking"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0001" tags="running"/>
+		<display_value name="dStaminaChangeOT" value="-.100"/>
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value=".001"/><display_value name="dNoiseMultiplier" value=".01"/>
+		<passive_effect name="BuffResistance" operation="base_add" value=".150,.160" tags="buffInfectionCatch,buffInjuryBleeding,buffInjuryStunned01"/><passive_effect name="BuffResistance" operation="base_add" value=".05" tags="buffInfectionCatch"/><passive_effect name="BuffResistance" operation="base_add" value=".02" tags="buffInjuryBleeding"/>
+	</effect_group>
+	<property class="UMA">
+		<property name="Mesh" value="armor_kevlar_gloves"/>
+		<property name="Overlay0" value="armor_kevlar_gloves"/>
+		<property name="Layer" value="0"/>
+		<property name="UISlot" value="Gloves"/>
+	</property>
+</item>
+
+<item name="HD Military Legs">
+	<property name="Extends" value="armorMilitaryMaster" param1="CustomIcon"/>
+	<property name="Tags" value="lowerbody,legs,armor,armorLegs,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
+	<property name="EquipSlot" value="Legs"/>
+	<property name="CustomIcon" value="HD Military Legs"/>
+	<property name="DescriptionKey" value="HDMASDesc"/>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="9.6,13"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1000,2000" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
+		<passive_effect name="Mobility" operation="perc_add" value="-.01"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0001" tags="walking"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0001" tags="running"/>
+		<display_value name="dStaminaChangeOT" value="-.100"/>
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value=".001"/><display_value name="dNoiseMultiplier" value=".01"/>
+		<passive_effect name="BuffResistance" operation="base_add" value=".150,.160" tags="buffInfectionCatch,buffInjuryBleeding,buffInjuryStunned01"/><passive_effect name="BuffResistance" operation="base_add" value=".05" tags="buffInfectionCatch"/><passive_effect name="BuffResistance" operation="base_add" value=".02" tags="buffInjuryBleeding"/>
+	</effect_group>
+	<property class="UMA">
+		<property name="Mesh" value="armor_kevlar_legarmor"/>
+		<property name="Overlay0" value="armor_kevlar_legarmor"/>
+		<property name="Layer" value="3"/>
+		<property name="UISlot" value="LegArmor"/>
+	</property>
+</item>
+
+<item name="HD Military Boots">
+	<property name="Extends" value="armorMilitaryMaster" param1="CustomIcon"/>
+	<property name="Tags" value="lowerbody,feet,armor,armorFeet,lightArmor,lightArmorPenalty,canHaveCosmetic,lightArmorDeg"/>
+	<property name="EquipSlot" value="Feet"/>
+	<property name="CustomIcon" value="HD Military Boots"/>
+	<property name="DescriptionKey" value="HDMASDesc"/>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="9.6,13"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1000,2000" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
+		<passive_effect name="Mobility" operation="perc_add" value="-.01"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0001" tags="walking"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0001" tags="running"/>
+		<display_value name="dStaminaChangeOT" value="-.100"/>
+		<passive_effect name="NoiseMultiplier" operation="perc_add" value=".001"/><display_value name="dNoiseMultiplier" value=".01"/>
+		<passive_effect name="BuffResistance" operation="base_add" value=".150,.160" tags="buffInfectionCatch,buffInjuryBleeding,buffInjuryStunned01"/><passive_effect name="BuffResistance" operation="base_add" value=".05" tags="buffInfectionCatch"/><passive_effect name="BuffResistance" operation="base_add" value=".02" tags="buffInjuryBleeding"/>
+	</effect_group>
+	<property class="UMA">
+		<property name="Mesh" value="armor_kevlar_boots"/>
+		<property name="Overlay0" value="armor_kevlar_boots"/>
+		<property name="Layer" value="0"/>
+		<property name="UISlot" value="Footwear"/>
+	</property>
+</item>
+
+</append>	
+</configs>

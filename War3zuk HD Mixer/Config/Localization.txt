@@ -1,0 +1,20 @@
+Key,Source,Context,Changes,English
+
+HDCementMixerDesc,,blocks,Workstation,Cement Mixing At Its Finest With Improved Speeds. There are different Engine Torques Giving a Total reduction in time of 50 Percent with 0 Heat Penalty,
+
+HDCementMixer,items,Item,KgNone,HD Cement Mixer,
+
+HDMotor125cc,items,Item,KgNone,HD Motor 125 cc,
+HDMotor250cc,items,Item,KgNone,HD Motor 250 cc,
+HDMotor500cc,items,Item,KgNone,HD Motor 500 cc,
+
+HDMotor125ccDesc,items,,,Adding This to the HD Cement Mixer will grant you a 5 Percent speed Increase,
+HDMotor250ccDesc,items,,,Adding This to the HD Cement Mixer will grant you a 15 Percent speed Increase,
+HDMotor500ccDesc,items,,,Adding This to the HD Cement Mixer will grant you a 30 Percent speed Increase,
+
+
+
+
+
+
+

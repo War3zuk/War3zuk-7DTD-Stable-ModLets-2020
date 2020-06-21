@@ -1,0 +1,93 @@
+<configs>
+		
+	<append xpath="/blocks/block[@name='hiddenSafePaintingBen']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingLorien']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingDerek']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingNoah']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingDuke']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingKen']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cntWallSafeInsecure"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="5"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='cntCollapsedWorkbench']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="workbench"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="2"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='cntCollapsedForge']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="forge"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="2"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='cntCollapsedChemistryStation']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="chemistryStation"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="2"/>
+		</property>
+	</append>
+	
+	<append xpath="/blocks/block[@name='cntCollapsedCementMixer']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="cementMixer"/>
+			<property name="Item" value="HD Lock Pick"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="2"/>
+		</property>
+	</append>
+		
+</configs>

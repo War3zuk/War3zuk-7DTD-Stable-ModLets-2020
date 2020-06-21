@@ -1,0 +1,19 @@
+<configs>
+	
+<append xpath="/materials">
+
+<material id="Kryptonite">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="iron"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="metal"/>
+	<property name="stability_glue" value="500"/>
+	<property name="Mass" type="int" value="20"/>
+	<property name="explosionresistance" value="2.5"/>
+	<property name="MaxDamage" value="30000"/>
+	<property name="Experience" value="0"/>
+</material>
+
+</append>
+</configs>

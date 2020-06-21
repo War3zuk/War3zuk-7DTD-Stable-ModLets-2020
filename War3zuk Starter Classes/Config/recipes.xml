@@ -1,0 +1,50 @@
+<configs>
+	
+<append xpath="/recipes">
+	
+<recipe name="Find The Trader" count="1" craft_time = "1">
+	<ingredient name="resourcePaper" count="10"/>
+</recipe>
+	
+<recipe name="Class Bruiser">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Builder">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Engineer">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Farmer">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Gunman">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Hunter">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Mechanic">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Medic">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Miner">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Rifleman">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+</append>
+</configs>

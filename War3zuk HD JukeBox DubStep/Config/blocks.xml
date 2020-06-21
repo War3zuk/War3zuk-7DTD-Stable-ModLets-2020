@@ -1,0 +1,34 @@
+<configs>
+
+<append xpath="/blocks">
+	
+<block name="HDJukeBoxDubStepOFF">
+	<property name="CustomIcon" value="HDJukeBoxDubStepOFF" />
+	<property name="DescriptionKey" value="HDJukeBoxDesc"/>
+	  <property name="Model" value="#@modfolder:Resources/HD JukeBox DubStep OFF.unity3d?HD JukeBox DubStep OFF.Prefab" />
+	  <property name="Material" value="BoxedWood"/>
+	  <property name="Shape" value="ModelEntity" />
+	  <property name="Path" value="solid"/>
+	  <property name="StabilitySupport" value="false"/>
+	  <property name="OnlySimpleRotations" value="true"/>
+	  <property name="CanPickup" value="true" />
+	  <property name="TakeDelay" value="5"/>
+	  <drop event="Destroy" count="0"/>
+	  <property name="DowngradeBlock" value="HDJukeBoxDubStepON"/>
+</block>
+
+<block name="HDJukeBoxDubStepON">
+	<property name="CustomIcon" value="HDJukeBoxDubStepOFF" />
+	  <property name="Model" value="#@modfolder:Resources/HD JukeBox DubStep ON.unity3d?HD JukeBox DubStep ON.Prefab" />
+	  <property name="Material" value="BoxedWood"/>
+	  <property name="Shape" value="ModelEntity" />
+	  <property name="Path" value="solid"/>
+	  <property name="StabilitySupport" value="false"/>
+	  <property name="OnlySimpleRotations" value="true"/>
+	  <property name="CanPickup" value="false" />
+	  <drop event="Destroy" count="0"/>
+	  <property name="DowngradeBlock" value="HDJukeBoxDubStepOFF"/>
+</block>
+
+</append>
+</configs>

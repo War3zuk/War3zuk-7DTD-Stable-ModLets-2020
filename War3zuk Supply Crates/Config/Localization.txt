@@ -1,0 +1,9 @@
+Key,Source,Context,Changes,English
+
+BSFDesc,items,,,You have found a Building Supply Flare left click the ground when active to spawn the crate.
+
+HSFDesc,items,,,You have found a Health Supply Flare left click the ground when active to spawn the crate.
+
+ASFDesc,items,,,You have found a Ammo Supply Flare left click the ground when active to spawn the crate.
+
+FSFDesc,items,,,You have found a Food Supply Flare left click the ground when active to spawn the crate.

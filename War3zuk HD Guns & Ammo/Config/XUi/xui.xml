@@ -1,0 +1,24 @@
+<configs>
+
+<append xpath="/xui/ruleset[@name='default']" >
+
+<window_group name="workstation_HD GunBench" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="windowCraftingQueue"/>
+	<window name="windowOutput" />
+	<window name="windowNonPagingHeader" />
+	<window name="windowToolsHD GunBench" />
+</window_group>
+	
+<window_group name="workstation_HD AmmoBench" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="windowCraftingQueue"/>
+	<window name="windowOutput" />
+	<window name="windowNonPagingHeader" />
+	<window name="windowToolsHD AmmoBench" />
+</window_group>
+
+</append>
+</configs>

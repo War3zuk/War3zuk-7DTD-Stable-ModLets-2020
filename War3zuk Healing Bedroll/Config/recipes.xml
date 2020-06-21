@@ -1,0 +1,12 @@
+<configs>
+	
+<append xpath="/recipes">
+
+<recipe name="Advanced First Aid Kit" count="1" craft_time = "5" tags="learnable,perkYeahScience" >
+	<ingredient name="medicalBloodBag" count="1"/>
+	<ingredient name="drinkJarGrainAlcohol" count="1"/>
+	<ingredient name="medicalFirstAidKit" count="1"/>
+</recipe>
+
+</append>
+</configs>

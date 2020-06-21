@@ -1,0 +1,22 @@
+<configs>
+	
+<append xpath="/materials">
+
+<material id="BoxedWood">
+	<property name="damage_category" value="wood"/>
+	<property name="surface_category" value="wood"/>
+	<property name="particle_category" value="wood"/>
+	<property name="forge_category" value="wood"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="wood"/>
+	<property name="lightopacity" value="1"/>
+	<property name="stability_glue" value="0"/>
+	<property name="Mass" type="int" value="1"/>
+	<property name="plant" value="true"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="MaxDamage" value="1"/>
+	<property name="Experience" value="0"/>
+</material>
+
+</append>
+</configs>

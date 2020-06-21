@@ -1,0 +1,8 @@
+Key,Source,Context,Changes,English
+
+HDGasGeneratorDesc,blocks,,,High Powered High Torque For ALL Your Base Needs.
+HDGeneratorDesc,blocks,,,High Powered High Torque For ALL Your Base Needs.
+
+HDMotorDesc,items,,,A specialised High Torque Motor that once applied will act like a Mini Nuclear power plant. This Item is placed into the HD Generator which requires 6 Motors.
+
+HDCellDesc,items,,,A specialised Hd Battery Cell that once applied will act like a Mini Nuclear power plant. This Item is placed into the HD Generator which requires 6 Cells.

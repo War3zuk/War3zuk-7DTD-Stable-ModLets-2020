@@ -1,0 +1,12 @@
+<loot>
+	
+<append xpath="/lootcontainers">
+
+<lootcontainer id="130" size="10,9" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" >
+	</lootcontainer>
+	
+<lootcontainer id="131" size="10,9" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" >
+	</lootcontainer>
+	
+</append> 
+</loot>

@@ -1,0 +1,15 @@
+Key,Source,Context,Changes,English
+
+HDplantedMushroom1,blocks,Block Building,KgNone,HD Mushroom Seedling,
+HDplantedYucca1,blocks,Block Building,KgNone,HD Yucca Seedling,
+HDplantedCotton1,blocks,Block Building,KgNone,HD Cotton Seedling,
+HDplantedCoffee1,blocks,Block Building,KgNone,HD Coffee Seedling,
+HDplantedGoldenrod1,blocks,Block Building,KgNone,HD Goldenrod Seedling,
+HDplantedAloe1,blocks,Block Building,KgNone,HD Aloe Seedling,
+HDplantedBlueberry1,blocks,Block Building,KgNone,HD Blueberry Seedling,
+HDplantedPotato1,blocks,Block Building,KgNone,HD Potato Seedling,
+HDplantedChrysanthemum1,blocks,Block Building,KgNone,HD Chrysanthemum Seedling,
+HDplantedCorn1,blocks,Block Building,KgNone,HD Corn Seedling,
+HDplantedHop1,blocks,Block Building,KgNone,HD Hops Seedling,
+HDplantedSnowberry1,blocks,Block Building,KgNone,HD SnowBerry Seedling,
+HDplantedPumpkin1,blocks,Block Building,KgNone,HD Pumpkin Seedling,

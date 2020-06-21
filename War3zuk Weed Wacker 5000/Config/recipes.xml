@@ -1,0 +1,12 @@
+<configs>
+	
+<append xpath="/recipes">
+	
+<recipe name="Weed Wacker 5000" count="1"  craft_time = "10">
+	<ingredient name="resourceForgedIron" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+</recipe>
+
+</append>
+</configs>

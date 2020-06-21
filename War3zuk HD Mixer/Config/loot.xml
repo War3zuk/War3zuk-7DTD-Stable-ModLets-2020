@@ -1,0 +1,12 @@
+<configs>
+
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='124']">
+	
+<append xpath="/lootcontainers/lootcontainer[@id='93']" >
+	<item group="cementMixerLoot" count="2"/>
+	<item name="cementMixerSchematic" prob="0.2"/>
+	<item name="HD Cement Mixer Schematic" prob="0.1"/>
+</append>
+	
+</insertAfter>
+</configs>

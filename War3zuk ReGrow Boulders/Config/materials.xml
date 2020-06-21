@@ -1,0 +1,7 @@
+<configs>
+	
+	<set xpath="/materials/material[@id='Mboulder']/property[@name='MaxDamage']/@value">1000</set>
+	<set xpath="/materials/material[@id='MoreStone']/property[@name='MaxDamage']/@value">1100</set>
+	<set xpath="/materials/material[@id='MoreMetal']/property[@name='MaxDamage']/@value">1200</set>
+	
+</configs>

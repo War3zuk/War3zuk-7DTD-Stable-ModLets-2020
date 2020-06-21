@@ -1,0 +1,14 @@
+<configs>
+	
+<append xpath="/recipes">
+	
+<recipe name="War3zuk Quest 01" count="1" craft_time = "1" craft_exp_gain="0" >
+	<ingredient name="resourcePaper" count="100"/>
+</recipe>
+
+<recipe name="War3zuk Quest 02" count="1" craft_time = "1" craft_exp_gain="0" >
+	<ingredient name="resourcePaper" count="100"/>
+</recipe>
+
+</append>
+</configs>
