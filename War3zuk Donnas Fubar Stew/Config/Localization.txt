@@ -1,3 +1,0 @@
-Key,Source,Context,Changes,English
-DonnasFubarStewDesc,items,Food,New,A warm Fubar Stew made for people on the run.
-DonnasFubarSteakDesc,items,Food,New,A Fubar Steak used in making the Fubar Stew.

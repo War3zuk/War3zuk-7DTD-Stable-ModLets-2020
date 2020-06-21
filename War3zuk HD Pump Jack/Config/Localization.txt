@@ -1,7 +1,0 @@
-Key,Source,Context,Changes,English
-
-HDPumpJackE,items,Block,KgNone,HD Pump Jack,
-
-HDPumpJackF,items,Block,KgNone,HD Pump Jack,
-
-HDPJEDesc,Block,,,This Pump Jack Will Mine Resources Over Time & Deliver Them For Collection.\n\nLoot From Either The Front Or The Rear Of The Pump

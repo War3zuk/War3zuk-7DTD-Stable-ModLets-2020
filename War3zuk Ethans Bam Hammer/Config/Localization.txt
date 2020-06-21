@@ -1,3 +1,0 @@
-Key,Source,Context,Changes,English
-
-EthansBamHammerDesc,items,weapons,New,Ethans Bam Hammer. Only The Just Can Wield This Sort Of POWER,

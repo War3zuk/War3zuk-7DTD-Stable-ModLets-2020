@@ -1,5 +1,0 @@
-Key,Source,Context,Changes,English
-
-HDWrenchDesc,items,Tools,New,Crafted from the Finest Steel this BadBoi will be there for you Craft a better version by putting skill points into the Salvage Operations Perk.
-
-HDImpactWrenchDesc,Block,,,The Impact Wrench will gather resources quicker than any tool in the game.\n\nPlace Points Into SalvageOperations To Gain Max Resources,
