@@ -1,0 +1,20 @@
+<configs>
+	
+<append xpath="/recipes">
+	
+<recipe name="HD Truck Elevator x5" craft_area="workbench" count="1" craft_time = "240" tags="perkGunslinger">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceForgedSteel" count="200"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Truck Elevator x10" craft_area="workbench" count="1" craft_time = "240" tags="perkGunslinger">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceForgedSteel" count="200"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+</append>
+</configs>

@@ -1,0 +1,19 @@
+<configs>
+	
+	<append xpath="/materials">
+		
+<material id="MChromium">
+	<property name="damage_category" value="metal"/>
+	<property name="surface_category" value="metal"/>
+	<property name="forge_category" value="iron"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="metal"/>
+	<property name="stability_glue" value="3000"/>
+	<property name="Mass" type="int" value="1"/>
+	<property name="explosionresistance" value="1.5"/>
+	<property name="MaxDamage" value="10000"/>
+	<property name="Experience" value="3"/>
+</material>
+
+</append>
+</configs>

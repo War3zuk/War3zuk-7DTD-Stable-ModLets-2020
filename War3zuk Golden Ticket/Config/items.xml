@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	<append xpath="/items">
+		<item name="Golden Ticket">
+			<property name="DescriptionKey" value="GoldenTicketDesc"/>
+			<property name="CustomIcon" value="Golden Ticket" />
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Stacknumber" value="100"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="CraftingIngredientTime" value="0.001"/>
+		</item>
+	</append>
+	
+	<append xpath="/items/item[@name='casinoCoin']">
+		<property name="CraftingIngredientTime" value="0.001"/>
+	</append>
+</configs>
+

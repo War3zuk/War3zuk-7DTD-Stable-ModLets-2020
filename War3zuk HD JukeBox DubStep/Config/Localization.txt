@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English
+
+HDJukeBoxDubStepOFF,items,Item,KgNone,HD JukeBox DubStep OFF,
+
+HDJukeBoxDubStepON,items,Item,KgNone,HD JukeBox DubStep ON,
+
+HDJukeBoxDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 In My Mind.\n\nTrack 002 Feel Good.\n\nTrack 003 The Girl.\n\nTrack 004 Entropy.\n\nTrack 005 Ghosts N Stuff.

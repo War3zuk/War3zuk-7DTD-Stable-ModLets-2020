@@ -1,0 +1,3 @@
+Key,Source,Context,Changes,English
+
+HDMASDesc,items,armor,New,The highest quality money can buy so these give less penalties place points into LightArmor to craft better versions.

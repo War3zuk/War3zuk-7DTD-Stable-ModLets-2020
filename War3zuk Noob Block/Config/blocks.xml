@@ -1,0 +1,93 @@
+<War3zuk>
+
+<append xpath="/blocks">
+    
+<block name="HD Noob Frame">
+	<property name="CustomIcon" value="woodFrameMaster" />
+	<property name="CreativeMode" value="Player"/>
+	<property name="Extends" value="woodWeakNoUpgradeMaster"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Shape" value="New"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Frame"/>
+	<property name="Texture" value="381"/>
+	<property name="UseGlobalUV" value="Local"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Collide" value="movement,melee,rocket"/>
+	<property name="CanPickup" value="true" param1="HD Noob Frame"/>
+	<property class="RepairItems"> <property name="resourceWood" value="2"/> </property>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="HD Noob Frame A"/>
+	<property name="UpgradeRated.Rate" value="2"/>
+	<drop event="Destroy" count="0"/>
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property name="CustomUpgradeSound" value="place_block_wood"/>
+	<drop event="Destroy" name="resourceWood" count="5" prob="1"/>
+	<property name="FilterTags" value="fbuilding,fwood,fconstruction,fframes"/>
+	<property name="SortOrder1" value="g0t0"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="HD Noob Frame A">
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="woodFrameMaster" />
+	<property name="Extends" value="woodNoUpgradeMaster"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="HD Noob Frame B"/>
+	<property name="UpgradeRated.Rate" value="3"/>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="CustomUpgradeSound" value="place_block_wood"/>
+</block>
+
+<block name="HD Noob Frame B">
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="woodFrameMaster" />
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="DescriptionKey" value="rWoodGroupDesc"/>
+	<property name="Material" value="MwoodReinforced"/>
+	<property name="Tags" value="wood"/>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="Texture" value="379"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="FuelValue" value="300"/>
+	<property class="RepairItems"> <property name="resourceWood" value="3"/> </property>
+	<property name="Class" value="UpgradeRated"/>
+	<property name="UpgradeRated.ToBlock" value="HD Noob Frame C"/>
+	<property name="UpgradeRated.Rate" value="4"/>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="CustomUpgradeSound" value="place_block_wood"/>
+	<drop event="Harvest" name="resourceWood" count="20" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="FilterTags" value="fbuilding,fwood"/>
+	<property name="SortOrder1" value="4040"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="HD Noob Frame C">
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="woodFrameMaster" />
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="Mmetal_medium"/>
+	<property name="Texture" value="307"/>
+	<property name="DescriptionKey" value="scrapIronGroupDesc"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="RepairItems"> <property name="resourceScrapIron" value="30"/> </property>
+	<drop event="Harvest" name="resourceScrapIron" count="20" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="FilterTags" value="fbuilding,firon"/>
+	<property name="SortOrder1" value="40e0"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+    
+</append>
+</War3zuk>

@@ -1,0 +1,35 @@
+<blockplaceholders>
+	
+	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']"/>
+	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']"/>
+	
+<append xpath="/blockplaceholders">
+		
+	<placeholder name="paintingPictureRandomHelper">
+		<block name="HD ZTPH 011" prob="1"/>
+		<block name="HD ZTPH 012" prob="1"/>
+		<block name="HD ZTPH 013" prob="1"/>
+		<block name="HD ZTPH 014" prob="1"/>
+		<block name="HD ZTPH 015" prob="1"/>
+		<block name="HD ZTPH 016" prob="1"/>
+		<block name="HD ZTPH 017" prob="1"/>
+		<block name="HD ZTPH 018" prob="1"/>
+		<block name="HD ZTPH 019" prob="1"/>
+		<block name="HD ZTPH 020" prob="1"/>
+	</placeholder>
+
+	<placeholder name="cntPaintingPictureSafeRandomLootHelper">
+		<block name="HiddenHD ZTPH 011" prob="1"/>
+		<block name="HiddenHD ZTPH 012" prob="1"/>
+		<block name="HiddenHD ZTPH 013" prob="1"/>
+		<block name="HiddenHD ZTPH 014" prob="1"/>
+		<block name="HiddenHD ZTPH 015" prob="1"/>
+		<block name="HiddenHD ZTPH 016" prob="1"/>
+		<block name="HiddenHD ZTPH 017" prob="1"/>
+		<block name="HiddenHD ZTPH 018" prob="1"/>
+		<block name="HiddenHD ZTPH 019" prob="1"/>
+		<block name="HiddenHD ZTPH 020" prob="1"/>
+	</placeholder>
+	
+</append>
+</blockplaceholders>

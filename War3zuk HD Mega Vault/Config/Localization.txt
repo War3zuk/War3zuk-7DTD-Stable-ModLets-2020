@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English
+
+HDMegaVaultDesc,Block,,,A Very Tough Mega Vault for storing Items.
+
+HDFuelSDesc,Block,,,A Very Tough Fuel Tanker for storing Fuel.
+

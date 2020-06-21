@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English
+
+HDJukeBoxReggaeOFF,items,Item,KgNone,HD JukeBox Reggae OFF,
+
+HDJukeBoxReggaeON,items,Item,KgNone,HD JukeBox Reggae ON,
+
+HDJukeBoxReggaeDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 Miss Fatty.\n\nTrack 002 Hold Yuh.\n\nTrack 003 Rude Boy.\n\nTrack 004 Wine Slow.\n\nTrack 005 Help me.

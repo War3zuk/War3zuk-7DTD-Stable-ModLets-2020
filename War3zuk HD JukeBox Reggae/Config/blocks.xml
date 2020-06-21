@@ -1,0 +1,34 @@
+<configs>
+
+<append xpath="/blocks">
+	
+<block name="HDJukeBoxReggaeOFF">
+	<property name="CustomIcon" value="HDJukeBoxReggaeOFF" />
+	<property name="DescriptionKey" value="HDJukeBoxReggaeDesc"/>
+	  <property name="Model" value="#@modfolder:Resources/HD JukeBox Reggae OFF.unity3d?HD JukeBox Reggae OFF.Prefab" />
+	  <property name="Material" value="BoxedWood"/>
+	  <property name="Shape" value="ModelEntity" />
+	  <property name="Path" value="solid"/>
+	  <property name="StabilitySupport" value="false"/>
+	  <property name="OnlySimpleRotations" value="true"/>
+	  <property name="CanPickup" value="true" />
+	  <property name="TakeDelay" value="5"/>
+	  <drop event="Destroy" count="0"/>
+	  <property name="DowngradeBlock" value="HDJukeBoxReggaeON"/>
+</block>
+
+<block name="HDJukeBoxReggaeON">
+	<property name="CustomIcon" value="HDJukeBoxReggaeOFF" />
+	  <property name="Model" value="#@modfolder:Resources/HD JukeBox Reggae ON.unity3d?HD JukeBox Reggae ON.Prefab" />
+	  <property name="Material" value="BoxedWood"/>
+	  <property name="Shape" value="ModelEntity" />
+	  <property name="Path" value="solid"/>
+	  <property name="StabilitySupport" value="false"/>
+	  <property name="OnlySimpleRotations" value="true"/>
+	  <property name="CanPickup" value="false" />
+	  <drop event="Destroy" count="0"/>
+	  <property name="DowngradeBlock" value="HDJukeBoxReggaeOFF"/>
+</block>
+
+</append>
+</configs>

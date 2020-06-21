@@ -1,0 +1,62 @@
+<configs>
+
+	<append xpath="/recipes">
+		
+<recipe name="Disassemble 9mm Ammo 10" count="1" craft_time = "0.5" >
+	<ingredient name="ammo9mmBulletBall" count="10"/>
+</recipe>
+
+<recipe name="Disassemble HP 9mm Ammo 10" count="1" craft_time = "0.5" >
+	<ingredient name="ammo9mmBulletHP" count="10"/>
+</recipe>
+
+<recipe name="Disassemble AP 9mm Ammo 10" count="1" craft_time = "0.5" >
+	<ingredient name="ammo9mmBulletAP" count="10"/>
+</recipe>
+
+<recipe name="Disassemble 44 Magnum Ammo 10" count="1" craft_time = "0.5" >
+	<ingredient name="ammo44MagnumBulletBall" count="10"/>
+</recipe>
+
+<recipe name="Disassemble HP 44 Magnum Ammo 10" count="1" craft_time = "0.5" >
+	<ingredient name="ammo44MagnumBulletHP" count="10"/>
+</recipe>
+
+<recipe name="Disassemble AP 44 Magnum Ammo 10" count="1" craft_time = "0.5" >
+	<ingredient name="ammo44MagnumBulletAP" count="10"/>
+</recipe>
+
+<recipe name="Disassemble 7.62mm Ammo 10" count="1" craft_time = "0.5" >
+	<ingredient name="ammo762mmBulletBall" count="10"/>
+</recipe>
+
+<recipe name="Disassemble HP 7.62mm Ammo 10" count="1" craft_time = "0.5" >
+	<ingredient name="ammo762mmBulletHP" count="10"/>
+</recipe>
+
+<recipe name="Disassemble AP 7.62mm Ammo 10" count="1" craft_time = "0.5" >
+	<ingredient name="ammo762mmBulletAP" count="10"/>
+</recipe>
+
+<recipe name="Disassemble Blunderbuss Ammo 10" count="1" craft_time = "0.5" >
+	<ingredient name="ammoBlunderbuss" count="10"/>
+</recipe>
+
+<recipe name="Disassemble Shotgun Shell Ammo 10" count="1" craft_time = "0.5" >
+	<ingredient name="ammoShotgunShell" count="10"/>
+</recipe>
+
+<recipe name="Disassemble Shotgun Slug Ammo 10" count="1" craft_time = "0.5" >
+	<ingredient name="ammoShotgunSlug" count="10"/>
+</recipe>
+
+<recipe name="Disassemble Shotgun Breaching Slug Ammo 10" count="1" craft_time = "0.5" >
+	<ingredient name="ammoShotgunBreachingSlug" count="10"/>
+</recipe>
+
+<recipe name="Disassemble Molotov Cocktail 10" count="1" craft_time = "0.5" >
+	<ingredient name="thrownAmmoMolotovCocktail" count="10"/>
+</recipe>
+
+</append>
+</configs>

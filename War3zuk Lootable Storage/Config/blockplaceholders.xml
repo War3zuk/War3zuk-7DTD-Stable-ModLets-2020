@@ -1,0 +1,35 @@
+<blockplaceholders>
+    
+<append xpath="/blockplaceholders">
+		
+<append xpath="/blockplaceholders">
+	<placeholder name="storeShelving01">
+		<block name="storeShelving01Empty" prob=".90"/>
+		<block name="storeShelving01Full" prob=".10"/>
+	</placeholder>
+</append>
+
+<append xpath="/blockplaceholders">
+	<placeholder name="storeShelving01Double">
+		<block name="storeShelving01DoubleEmpty" prob=".90"/>
+		<block name="storeShelving01DoubleFull" prob=".10"/>
+	</placeholder>
+</append>
+	
+<append xpath="/blockplaceholders">
+	<placeholder name="storeShelving01Top">
+		<block name="storeShelving01TopEmpty" prob=".90"/>
+		<block name="storeShelving01TopFull" prob=".10"/>
+	</placeholder>
+</append>
+	
+<append xpath="/blockplaceholders">
+	<placeholder name="storeShelving01TopDouble">
+		<block name="storeShelving01TopDoubleEmpty" prob=".90"/>
+		<block name="storeShelving01TopDoubleFull" prob=".10"/>
+	</placeholder>
+</append>
+	
+</append>
+
+</blockplaceholders>

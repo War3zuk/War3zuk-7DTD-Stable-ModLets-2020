@@ -1,0 +1,35 @@
+<configs>
+	
+<append xpath="/recipes">
+
+<recipe name="HDCementMixer" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="150"/>
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceSpring" count="20"/>
+	<ingredient name="smallEngine" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="30"/>
+</recipe>
+
+<recipe name="HDMotor125cc" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="15"/>
+	<ingredient name="resourceOil" count="2"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceCloth" count="10"/>
+</recipe>
+
+<recipe name="HDMotor250cc" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceOil" count="2"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceCloth" count="10"/>
+</recipe>
+
+<recipe name="HDMotor500cc" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="resourceOil" count="2"/>
+	<ingredient name="smallEngine" count="2"/>
+	<ingredient name="resourceCloth" count="10"/>
+</recipe>
+
+</append>
+</configs>

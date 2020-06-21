@@ -1,0 +1,7 @@
+<configs>
+	
+	<set xpath="/buffs/buff[@name='god']/effect_group/passive_effect[@name='CarryCapacity']/@value">105</set>
+	<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity']/@value">105</set>
+	<set xpath="/buffs/buff[@name='buffNearDeathTrauma']/duration/@value">5</set>
+
+</configs>

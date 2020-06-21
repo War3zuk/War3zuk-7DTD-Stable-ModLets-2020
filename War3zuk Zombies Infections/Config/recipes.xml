@@ -1,0 +1,34 @@
+<configs>
+	
+<append xpath="/recipes">
+
+<recipe name="HD Bollock Rot Injection" count="1" craft_time = "60">
+	<ingredient name="drugAntibiotics" count="2"/>
+	<ingredient name="medicalFirstAidKit" count="2"/>
+	<ingredient name="medicalBandage" count="10"/>
+	<ingredient name="drugVitamins" count="2"/>
+</recipe>
+
+<recipe name="HD Bird Flu Injection" count="1" craft_time = "60">
+	<ingredient name="drugAntibiotics" count="2"/>
+	<ingredient name="medicalFirstAidKit" count="2"/>
+	<ingredient name="medicalBandage" count="10"/>
+	<ingredient name="drugVitamins" count="2"/>
+</recipe>
+
+<recipe name="HD Brain Herpes Injection" count="1" craft_time = "60">
+	<ingredient name="drugAntibiotics" count="2"/>
+	<ingredient name="medicalFirstAidKit" count="2"/>
+	<ingredient name="medicalBandage" count="10"/>
+	<ingredient name="drugVitamins" count="2"/>
+</recipe>
+
+<recipe name="HD MRSA Injection" count="1" craft_time = "60">
+	<ingredient name="drugAntibiotics" count="2"/>
+	<ingredient name="medicalFirstAidKit" count="2"/>
+	<ingredient name="medicalBandage" count="10"/>
+	<ingredient name="drugVitamins" count="2"/>
+</recipe>
+
+</append>
+</configs>

@@ -1,0 +1,150 @@
+<configs>
+	
+	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Steel Polish</append>
+	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Titanium Polish</append>
+	<set xpath="/items/item/property[@name='Stacknumber' and not(@value='1')]/@value">25000</set>
+	
+	<set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.1</set>
+	
+	<set xpath="/items/item[@name='drugSteroids']/effect_group/display_value[@name='dCarryCapacity' and @value]/@value">105</set>
+	
+	<set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">25000</set>
+	<set xpath="/items/item[@name='toolCookingGrill']/property[@name='Stacknumber']/@value">25000</set>
+	<set xpath="/items/item[@name='toolCookingPot']/property[@name='Stacknumber']/@value">25000</set>
+	<set xpath="/items/item[@name='toolBeaker']/property[@name='Stacknumber']/@value">25000</set>
+	<set xpath="/items/item[@name='toolBellows']/property[@name='Stacknumber']/@value">25000</set>
+	<set xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber']/@value">25000</set>
+	<set xpath="/items/item[@name='toolAndDieSet']/property[@name='Stacknumber']/@value">25000</set>
+	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='Stacknumber']/@value">25000</set>
+	<set xpath="/items/item[@name='carBattery']/property[@name='Stacknumber']/@value">25000</set>
+	<set xpath="/items/item[@name='solarCell']/property[@name='Stacknumber']/@value">25000</set>
+	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set>
+	
+	<set xpath="/items/item[starts-with(@name,'vehicle') and contains(@name,'Placeable')]/property[@name='SellableToTrader' and @value='false']/@value">true</set>
+	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/property[@name='EconomicValue'][@value='6000']/@value">5000</set>
+	<set xpath="/items/item[@name='vehicleMotorcyclePlaceable']/property[@name='EconomicValue'][@value='10000']/@value">7500</set>
+	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/property[@name='EconomicValue'][@value='30000']/@value">9000</set>
+	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/property[@name='EconomicValue'][@value='50000']/@value">12500</set>
+	
+<append xpath="/items">
+
+<item name="Forged Brass">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="ForgedBrass"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="MresourceForgedBrass"/>
+	<property name="Stacknumber" value="20000"/>
+	<property name="Weight" value="60"/>
+	<property name="EconomicValue" value="75"/>
+	<property name="Group" value="Resources"/>
+	<property name="DescriptionKey" value="FBDesc"/>
+	<property name="CraftingIngredientExp" value="0"/>
+	<property name="CraftingIngredientTime" value="1"/>
+	<property name="RepairTime" value="1"/>
+	<property name="RepairAmount" value="400"/>
+</item>
+
+<item name="Forged Titanium">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="ForgedTitanium"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="MresourceForgedBrass"/>
+	<property name="Stacknumber" value="20000"/>
+	<property name="Weight" value="60"/>
+	<property name="EconomicValue" value="75"/>
+	<property name="Group" value="Resources"/>
+	<property name="DescriptionKey" value="FTDesc"/>
+	<property name="CraftingIngredientExp" value="0"/>
+	<property name="CraftingIngredientTime" value="1"/>
+	<property name="RepairTime" value="1"/>
+	<property name="RepairAmount" value="400"/>
+</item>
+
+<item name="Steel Polish">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="Steel Polish"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MSteelPolish"/>
+	<property name="Weight" value="0"/>
+	<property name="Stacknumber" value="20000"/>
+	<property name="EconomicValue" value="45"/>
+	<property name="Group" value="Chemicals"/>
+	<property name="DescriptionKey" value="SPDesc"/>
+</item>
+
+<item name="Titanium Polish">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="Titanium Polish"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MTitaniumPolish"/>
+	<property name="Weight" value="0"/>
+	<property name="Stacknumber" value="20000"/>
+	<property name="EconomicValue" value="65"/>
+	<property name="Group" value="Chemicals"/>
+	<property name="DescriptionKey" value="TPDesc"/>
+</item>
+
+<item name="Congealed Metal">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="Congealed Metal"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="0"/>
+	<property name="Stacknumber" value="20000"/>
+	<property name="EconomicValue" value="55"/>
+	<property name="Group" value="Chemicals"/>
+	<property name="DescriptionKey" value="CMDesc"/>
+</item>
+
+<item name="toolBellows">
+	<property name="UnlockedBy" value="toolBellowsSchematic"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MtoolBellows"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="Weight" value="100"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="DisplayType" value="toolBellows"/>
+	<effect_group tiered="false">
+		<passive_effect name="CraftingSmeltTime" operation="perc_add" value="-.777"/>
+		<display_value name="dCraftingSmeltTime" value=".4"/>
+	</effect_group>
+</item>
+
+<item name="toolAnvil">
+	<property name="UnlockedBy" value="toolAnvilSchematic"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="200"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="EconomicValue" value="240"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="DisplayType" value="toolAnvil"/>
+	<effect_group tiered="false">
+		<passive_effect name="CraftingTime" operation="perc_add" value="-.777"/>
+		<display_value name="dCraftingTime" value=".4"/>
+	</effect_group>
+</item>
+
+<item name="HD Forge Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Forge Schematic"/>
+	<property name="Unlocks" value="HD Forge"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Forge" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100"/>
+	</effect_group>
+</item>
+
+</append>
+</configs>

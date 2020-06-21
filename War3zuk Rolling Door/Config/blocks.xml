@@ -1,0 +1,48 @@
+<configs>
+	
+<append xpath="/blocks">
+
+<block name="HD Rolling Door">
+	<property name="Texture" value="194"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="garageDoorHouse"/>
+	<property name="MaxDamage" value="15000"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering,poweredDoorsSchematic"/>
+	<property name="Class" value="DoorSecure"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="LightOpacity" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Tags" value="door"/>
+	<property name="BlockTag" value="Door"/>
+	<property name="Model" value="Entities/Doors/garage_housePrefab"/><property name="ModelOffset" value="0,0,0"/>
+	<property name="Mesh-Damage-1" value="Door/Box1"/>
+	<property name="MultiBlockDim" value="5,3,1"/><property name="DisplayType" value="blockMulti"/>
+	<property name="ActivationDistance" value="6"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="43"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="OpenSound" value="open_garageindustrial"/>
+	<property name="CloseSound" value="close_garageindustrial"/>
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="20"/>
+		<property name="resourceForgedIron" value="20"/>
+		<property name="resourceSpring" value="5"/>
+		<property name="Titanium Polish" value="5"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="200" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Destroy" name="resourceSpring" count="4,8" prob="1" tag="allHarvest"/>
+	<drop event="Destroy" name="resourceMechanicalParts" count="4,8" prob="1" tag="allHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="DescriptionKey" value="HDRDDesc"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="FilterTags" value="fdecor,fdoors"/>
+	<property name="SortOrder1" value="7060"/>
+	<property name="SortOrder2" value="0400"/>
+</block>
+
+</append>
+</configs>

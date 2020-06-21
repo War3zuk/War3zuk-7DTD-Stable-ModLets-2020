@@ -1,0 +1,5 @@
+Key,Source,Context,Changes,English
+
+PenthroxDesc,items,,,This will Render you Almost invisible to ALL Zombies unless you Engage them.
+
+PoisonVileDesc,items,,,A Key Ingredient in making the Penthrox Injection.

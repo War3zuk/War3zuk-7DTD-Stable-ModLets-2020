@@ -1,0 +1,9 @@
+Key,Source,Context,Changes,English
+
+HDWODesc,blocks,Block Building,,A Fully Working oven that uses NO Fuel.
+
+HDWDDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the Item & Use LMB
+
+HDWorkingFridgeDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the Item & Use LMB
+
+HDWorkingFireDesc,blocks,Block Building,,A Fully Working Fireplace Stove that uses NO Fuel.

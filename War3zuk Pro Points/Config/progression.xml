@@ -1,0 +1,6 @@
+<War3zuk>
+	
+		<set xpath="/progression/level/@skill_points_per_level">2</set>
+		<set xpath="/progression/level/@exp_to_level">7500</set>
+		
+</War3zuk>

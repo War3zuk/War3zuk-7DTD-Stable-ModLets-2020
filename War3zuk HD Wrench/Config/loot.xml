@@ -1,0 +1,14 @@
+<configs>
+	
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
+
+<lootgroup name="War3zukHDTools">
+		<item name="HD Wrench Schematic" count="1" prob=".50"/>
+		<item name="HD Auger Schematic" count="1" prob=".50"/>
+		<item name="HD Chainsaw Schematic" count="1" prob=".50"/>
+		<item name="HD Impact Wrench Schematic" count="1" prob=".50"/>
+</lootgroup>
+	
+</insertAfter>
+
+</configs>

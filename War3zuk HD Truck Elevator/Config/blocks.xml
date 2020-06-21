@@ -1,0 +1,68 @@
+<configs>
+	
+<append xpath="/blocks">
+
+<block name="HD Truck Elevator x5">
+	<property name="CustomIcon" value="HD Truck Elevator" />
+	<property name="DescriptionKey" value="HDTEx5Desc"/>
+     <property name="Class" value="DoorSecure" />
+     <property name="Material" value="Msteel" />
+     <property name="Shape" value="ModelEntity" />
+     <property name="Collide" value="movement,melee,rocket,bullet" />
+     <property name="Tag" value="Door" />
+     <property name="Place" value="Door" />
+     <property name="PlaceEverywhere" value="true" />
+     <property name="Model" value="#@modfolder:Resources/HD Truck Elevator.unity3d?HD Truck Elevator.Prefab"/>
+     <property name="ModelOffset" value="0,0,0" />
+     <property name="MultiBlockDim" value="5,7,6" />
+     <property name="PassThroughDamage" value="true" />
+     <property name="LightOpacity" value="1" />
+     <property name="Shape" value="ModelEntity" />
+     <property name="FuelValue" value="300" />
+     <property name="ImposterExchange" value="imposterCTRPlate" param1="35" />
+     <property name="OpenSound" value="open_garage_door" />
+     <property name="CloseSound" value="close_garage_door" />
+     <property class="RepairItems">
+        <property name="resourceForgedSteel" value="20" />
+        </property>
+     <property name="CustomUpgradeSound" value="place_block_metal" />
+     <drop event="Harvest" name="resourceForgedIron" count="100" tool_category="Disassemble"/>
+	 <drop event="Harvest" name="resourceMechanicalParts" count="5" tool_category="Disassemble"/>
+	 <drop event="Harvest" name="resourceForgedSteel" count="100" tool_category="Disassemble"/>
+	 <drop event="Harvest" name="resourceSpring" count="2" tool_category="Disassemble"/>
+     <drop event="Destroy" count="0" />
+</block>
+
+<block name="HD Truck Elevator x10">
+	<property name="CustomIcon" value="HD Truck Elevator" />
+	<property name="DescriptionKey" value="HDTEx10Desc"/>
+     <property name="Class" value="DoorSecure" />
+     <property name="Material" value="Msteel" />
+     <property name="Shape" value="ModelEntity" />
+     <property name="Collide" value="movement,melee,rocket,bullet" />
+     <property name="Tag" value="Door" />
+     <property name="Place" value="Door" />
+     <property name="PlaceEverywhere" value="true" />
+     <property name="Model" value="#@modfolder:Resources/HD Truck Elevator x10.unity3d?HD Truck Elevator x10.Prefab"/>
+     <property name="ModelOffset" value="0,0,0" />
+     <property name="MultiBlockDim" value="5,12,6" />
+     <property name="PassThroughDamage" value="true" />
+     <property name="LightOpacity" value="1" />
+     <property name="Shape" value="ModelEntity" />
+     <property name="FuelValue" value="300" />
+     <property name="ImposterExchange" value="imposterCTRPlate" param1="35" />
+     <property name="OpenSound" value="open_garage_door" />
+     <property name="CloseSound" value="close_garage_door" />
+     <property class="RepairItems">
+        <property name="resourceForgedSteel" value="20" />
+        </property>
+     <property name="CustomUpgradeSound" value="place_block_metal" />
+     <drop event="Harvest" name="resourceForgedIron" count="100" tool_category="Disassemble"/>
+	 <drop event="Harvest" name="resourceMechanicalParts" count="5" tool_category="Disassemble"/>
+	 <drop event="Harvest" name="resourceForgedSteel" count="100" tool_category="Disassemble"/>
+	 <drop event="Harvest" name="resourceSpring" count="2" tool_category="Disassemble"/>
+     <drop event="Destroy" count="0" />
+</block>
+
+</append>
+</configs>

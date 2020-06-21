@@ -1,0 +1,130 @@
+<configs>
+	
+<append xpath="/blocks">
+
+<block name="VendingMachineMaster">
+	<property name="Group" value="Science"/>
+	<property name="CustomIcon" value="cntVendingMachine" />
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="cntVendingMachineGroupDesc"/>
+	<property name="DisplayType" value="blockHardenedMulti"/>
+	<property name="Material" value="MTitaniumPolish"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="Class" value="VendingMachine"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Entities/Crafting/vending_machine_playerPrefab"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="143"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property class="RepairItems"> <property name="resourceForgedIron" value="10"/> </property>
+	<property name="TraderID" value="3"/>
+	<property name="Stacknumber" value="10"/>
+	<property name="EconomicValue" value="2000"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="Class Bruiser VM">
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Bruiser VM.Prefab"/>
+	<property name="TraderID" value="16"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="Class Bruiser VM" count="1"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+</block>
+
+<block name="Class Builder VM">
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Builder VM.Prefab"/>
+	<property name="TraderID" value="10"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="Class Builder VM" count="1"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="Class Engineer VM">
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Engineer VM.Prefab"/>
+	<property name="TraderID" value="11"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="Class Engineer VM" count="1"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="Class Farmer VM">
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Farmer VM.Prefab"/>
+	<property name="TraderID" value="12"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="Class Farmer VM" count="1"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="Class Gunman VM">
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Gunman VM.Prefab"/>
+	<property name="TraderID" value="13"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="Class Gunman VM" count="1"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="Class Mechanic VM">
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Mechanic VM.Prefab"/>
+	<property name="TraderID" value="14"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="Class Mechanic VM" count="1"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+<block name="Class Medic VM">
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Medic VM.Prefab"/>
+	<property name="TraderID" value="15"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="Class Medic VM" count="1"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
+</append>
+</configs>
