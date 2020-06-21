@@ -1,5 +1,10 @@
 Key,Source,Context,Changes,English
 
+HDDEPunScope,items,Item,KgNone,HD DE Punisher Scope,
+HDDEScope,items,Item,KgNone,HD DE Scope,
+HDDEScopeDesc,items,,,Military Grade Scope for the HD Desert Eagle,
+HDDEPunScopeDesc,items,,,Military Grade Scope for the HD Desert Eagle Punisher,
+
 HDSpas12ReflexDesc,items,,,Military Grade Reflex Sight that can be attached to the HD Spas 12,
 HDSpas12Reflex,items,Item,KgNone,HD Spas 12 Reflex,
 
