@@ -9,3 +9,5 @@ All Hospital BodyBags & Hospital Beds Including Gurny
 Loots Bags Including Player
 
 BirdsNests Lootable & Empty
+
+Added CntCoffin PBR Model (Paid)

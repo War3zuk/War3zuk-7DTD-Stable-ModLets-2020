@@ -35,25 +35,6 @@
 	<property name="EconomicBundleSize" value="10"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 </block>
-	
-<block name="cntCoffin">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Class" value="Loot"/>
-	<property name="Material" value="Mwood_weak"/>
-	<property name="Mesh" value="models"/>
-	<property name="Path" value="solid"/>
-	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
-	<property name="DisplayType" value="blockMulti"/>
-	<property name="MultiBlockDim" value="1,1,2"/>
-	<property name="ImposterExchange" value="imposterPlate" param1="1"/>
-	<property name="LootList" value="15"/>
-	<drop event="Destroy" name="resourceWood" count="1,3"/>
-	<property name="FilterTags" value="floot,ffurniture"/>
-	<drop event="Harvest" name="resourceBone" prob=".05" count="1,4" tag="WasteTreasuresCoffinHarvest"/>
-	<drop event="Harvest" name="resourceRawDiamond" prob=".05" count="1" tag="WasteTreasuresCoffinHarvest"/>
-	<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="1" tag="WasteTreasuresCoffinHarvest"/>
-	<drop event="Harvest" name="resourceGoldNugget" prob=".05" count="1" tag="WasteTreasuresCoffinHarvest"/>
-</block>
 
 <block name="cntBirdnest">
 	<property name="CustomIcon" value="cntBirdnest" />
@@ -98,6 +79,46 @@
 	<drop event="Destroy" count="0"/>
 </block>
 
+</append>
+
+<append xpath="/blocks/block[@name='cntCoffin']">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity" />
+	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,1,2"/>
+	<property name="ImposterExchange" value="imposterPlate" param1="1"/>
+	<property name="LootList" value="15"/>
+	<drop event="Destroy" name="resourceWood" count="1,3"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+	<drop event="Harvest" name="resourceBone" prob=".05" count="1,4" tag="WasteTreasuresCoffinHarvest"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob=".05" count="5" tag="WasteTreasuresCoffinHarvest"/>
+	<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="5" tag="WasteTreasuresCoffinHarvest"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".05" count="5" tag="WasteTreasuresCoffinHarvest"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntMunitionsBox']">
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Mesh" value="models"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/HD Munitions Crate.unity3d?HD Munitions Crate.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="ImposterExchange" value="imposterHalf" param1="112"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="40"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceForgedIron" count="5,10" prob="1" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceForgedSteel" count="5,10" prob="0.5" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="50" prob="1" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="FilterTags" value="floot"/>
 </append>
 
 <append xpath="/blocks/block[@name='cntGasPump']">
