@@ -1,12 +1,14 @@
 <configs>
-
-<insertAfter xpath="/lootcontainers/lootcontainer[@id='124']">
 	
-<append xpath="/lootcontainers/lootcontainer[@id='93']" >
-	<item group="cementMixerLoot" count="2"/>
-	<item name="cementMixerSchematic" prob="0.2"/>
-	<item name="HD Cement Mixer Schematic" prob="0.1"/>
-</append>
+	<remove xpath="/lootcontainers/lootcontainer[@id='93']"></remove>
 	
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='92']" >
+<!-- cntCollapsedCementMixer -->
+<lootcontainer id="93" count="1,2" size="7,4" sound_open="cement_mixer_open" sound_close="cement_mixer_close" loot_quality_template="qualBaseTemplate">
+	<item group="cementMixerLoot" count="1"/>
+	<item name="cementMixerSchematic" prob="0.15"/>
+	<item name="HD Cement Mixer Schematic" prob="0.15"/>
+</lootcontainer>
 </insertAfter>
+
 </configs>
