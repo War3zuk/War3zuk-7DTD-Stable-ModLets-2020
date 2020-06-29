@@ -1,14 +1,14 @@
 <configs>
 	
-<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
+	<remove xpath="/lootcontainers/lootcontainer[@id='49']"></remove>
 
-<lootgroup name="War3zukHDTools">
-		<item name="HD Wrench Schematic" count="1" prob=".50"/>
-		<item name="HD Auger Schematic" count="1" prob=".50"/>
-		<item name="HD Chainsaw Schematic" count="1" prob=".50"/>
-		<item name="HD Impact Wrench Schematic" count="1" prob=".50"/>
-</lootgroup>
+<append xpath="/lootcontainers">
+<lootcontainer id="49" count="2,4" size="6,2" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualBaseTemplate">
+	<item name="resourcePaper" count="2,8" prob="0.1"/>
+	<item group="books" prob="0.9"/>
+	<item name="HD Wrench Schematic" count="1" prob=".50"/>
+	<item name="HD Impact Wrench Schematic" count="1" prob=".50"/>
+</lootcontainer>
+</append>
 	
-</insertAfter>
-
 </configs>
