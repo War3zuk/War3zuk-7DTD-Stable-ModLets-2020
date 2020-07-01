@@ -87,7 +87,7 @@
 	<set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/sprite[@depth='5']/@width">1007</set>
 	<set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/rect[@name='description']/@width">852</set>
 	<set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/rect[@depth='1']/sprite[@name='backgroundMain']/@width">857</set>
-	<set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/rect[@depth='1']/rect[@visible='{showdescription}']/label[@name='descriptionText']/@width">857</set>
+	<!--  <set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/rect[@depth='1']/rect[@visible='{showdescription}']/label[@name='descriptionText']/@width">857</set> -->
 	
 	<remove xpath="/windows/window[@name='windowBackpack']" />
 	
@@ -103,7 +103,7 @@
 			</panel>
 			<panel name="content" width="100%" height="504" depth="0" pos="0,-46" disableautobackground="true">
 					<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="606" height="336" color="[black]" type="sliced" fillcenter="false" on_press="true" />
-					<grid depth="1" name="inventory" rows="7" cols="15" pos="3,-3" cell_width="67" cell_height="67" controller="Backpack" repeat_content="true" >
+					<grid depth="10" name="inventory" rows="7" cols="15" pos="3,-3" cell_width="67" cell_height="67" controller="Backpack" repeat_content="true" >
 						<backpack_item_stack name="0"/>
 					</grid>
 			</panel>

@@ -1,6 +1,0 @@
-<configs>
-	
-<set xpath="/entity_classes/entity_class[@name='zombieNurse']/property[@name='HandItem']/@value">meleeHandZombieNurse</set>
-<set xpath="/entity_classes/entity_class[@name='zombieNurseFeral']/property[@name='HandItem']/@value">meleeHandZombieNurseFeral</set>
-
-</configs>

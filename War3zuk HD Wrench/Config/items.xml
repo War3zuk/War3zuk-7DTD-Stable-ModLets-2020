@@ -4,17 +4,16 @@
 
 <item name="HD Wrench">
 	<property name="DescriptionKey" value="HDWrenchDesc"/>
-	<property name="Tags" value="blunt,melee,grunting,light,tool,attPerception,perkSalvageOperations,canHaveCosmetic"/>
+	<property name="Tags" value="blunt,melee,grunting,light,tool,longShaft,attPerception,perkSalvageOperations,canHaveCosmetic"/>
 	<property name="DisplayType" value="melee"/>
 	<property name="HoldType" value="29"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Wrench.unity3d?HD Wrench.Prefab"/>
-	<property name="CustomIcon" value="HD Wrench"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="metaldestroy"/>
-	<property name="EconomicValue" value="550"/>
+	<property name="EconomicValue" value="350"/>
 	<property name="UnlockedBy" value="HD Wrench Schematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
@@ -22,7 +21,6 @@
 		<property name="Sound_start" value="swoosh"/>
 		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
 		<property name="ToolCategory.Disassemble" value="1" param1="1"/>
-		<property name="Sound_harvesting" value="wrench_harvest"/>
 		<property name="Particle_harvesting" value="true" param1="metal"/>
 		<property name="UseGrazingHits" value="true"/>
 		<property name="GrazeStart" value=".25"/>
@@ -31,30 +29,32 @@
 		<property name="SwingAngle" value="180"/>
 	</property>
 	<property class="Action1">
-		<property name="Class" value="Repair"/>
-		<property name="Delay" value=".73"/>
-		<property name="Repair_amount" value="1000"/>
-		<property name="Upgrade_hit_offset" value="-5"/>
-		<property name="Repair_action_sound" value="nailgun_fire"/>
-		<property name="Upgrade_action_sound" value="nailgun_fire"/>
-		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail"/>
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sound_start" value="swoosh"/>
+		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".25"/>
+		<property name="GrazeEnd" value=".3"/>
+		<property name="SwingDegrees" value="50"/>
+		<property name="SwingAngle" value="180"/>
+		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail,Steel Polish,Titanium Polish"/>
 	</property>
-	<effect_group name="meleeToolWrench">
-		<passive_effect name="EntityDamage" operation="base_set" value="25"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="45.5"/>
+	<effect_group name="meleeToolSalvageT1Wrench">
+		<passive_effect name="EntityDamage" operation="base_set" value="25.5" tags="perkSalvageOperations"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="45.5" tags="perkSalvageOperations"/>
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="65"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="10.8" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="200,682" tier="1,6" tags="perkSalvageOperations"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="18.9" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="250,700" tier="1,6" tags="perkSalvageOperations"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkSalvageOperations"/>
-		<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
-		<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkSalvageOperations"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkSalvageOperations"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkSalvageOperations"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkSalvageOperations"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkSalvageOperations"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkSalvageOperations"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="wood"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.75" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
@@ -63,7 +63,7 @@
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_add" value="25.2" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="20" tags="secondary"/>
 	</effect_group>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
@@ -84,6 +84,7 @@
 	<property name="Stacknumber" value="1"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="UnlockedBy" value="HD Impact Wrench Schematic"/>
+	<property name="EconomicValue" value="1450"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Hitmask_override" value="Melee"/>
@@ -112,10 +113,10 @@
 		<property name="Upgrade_hit_offset" value="-5"/>
 		<property name="Repair_action_sound" value="HDIWrench"/>
 		<property name="Upgrade_action_sound" value="HDIWrench"/>
-		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail"/>
+		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail,Steel Polish,Titanium Polish"/>
 		</property>
-		<effect_group name="meleeToolWrench">
-			<passive_effect name="MaxRange" operation="base_set" value="2"/>
+		<effect_group name="meleeToolSalvageT3ImpactDriver">
+			<passive_effect name="MaxRange" operation="base_set" value="4"/>
 			<passive_effect name="BlockRange" operation="base_set" value="4"/>
 			<passive_effect name="EntityDamage" operation="base_set" value="0.5"/>
 			<passive_effect name="BlockDamage" operation="base_set" value="45"/>
@@ -146,7 +147,6 @@
 			<property name="ActionSkillGroup" value="Construction Tools"/>
 			<property name="CraftingSkillGroup" value="craftSkillScience"/>
 			<property name="RepairExpMultiplier" value="10.8"/>
-			<property name="EconomicValue" value="1450"/>
 </item>
 
 <item name="HD Wrench Schematic">

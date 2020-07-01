@@ -4,7 +4,7 @@
 	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Titanium Polish</append>
 	<set xpath="/items/item/property[@name='Stacknumber' and not(@value='1')]/@value">25000</set>
 	
-	<set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.1</set>
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.1</set>
 	
 	<set xpath="/items/item[@name='drugSteroids']/effect_group/display_value[@name='dCarryCapacity' and @value]/@value">105</set>
 	

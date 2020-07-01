@@ -14,7 +14,7 @@
 	
 <append xpath="/lootcontainers">
 <lootcontainer id="53" count="2,4" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate">
-	<item group="workingStiffs"/>
+	<item group="workingStiffsBox"/>
 	<item name="HD Forge Schematic" count="1" prob="0.1"/>
 </lootcontainer>
 </append>
