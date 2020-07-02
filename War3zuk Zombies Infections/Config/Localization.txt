@@ -1,0 +1,9 @@
+Key,Source,Context,Changes,English
+
+HDObonjanTestKitDesc,items,,,Crafting This will allow you to Cure the Pathogen you have been infected with. You have 60 Mins from Infection before it Mutates into an infection that cant be cured which will lead to your DEATH.
+
+HDBrainPoxTestKitDesc,items,,,Crafting This will allow you to Cure the Pathogen you have been infected with. You have 60 Mins from Infection before it Mutates into an infection that cant be cured which will lead to your DEATH.
+
+HDKrytosTestKitDesc,items,,,Crafting This will allow you to Cure the Pathogen you have been infected with. You have 60 Mins from Infection before it Mutates into an infection that cant be cured which will lead to your DEATH.
+
+HDSpattergroitTestKitDesc,items,,,Crafting This will allow you to Cure the Pathogen you have been infected with. You have 60 Mins from Infection before it Mutates into an infection that cant be cured which will lead to your DEATH.

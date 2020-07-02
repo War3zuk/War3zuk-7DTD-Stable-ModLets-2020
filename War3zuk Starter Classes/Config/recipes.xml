@@ -1,0 +1,85 @@
+<configs>
+	
+<append xpath="/recipes">
+	
+<recipe name="Class Bruiser">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Builder">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Engineer">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Farmer">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Gunman">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Hunter">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Mechanic">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Medic">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Miner">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="Class Rifleman">
+	<ingredient name="Starter Class" count="1"/>
+</recipe>
+
+<recipe name="HD Mini Hatchet" count="1"  craft_time = "30" tags="perkMiner69r">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+</recipe>
+
+<recipe name="HD Auger" craft_area="workbench" count="1"  craft_time = "60" tags="perkMiner69r">
+	<ingredient name="meleeToolPickT3Auger" count="1"/>
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceRepairKit" count="10"/>
+	<ingredient name="meleeToolAxeT3ChainsawParts" count="4"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+
+<recipe name="HD Chainsaw" craft_area="workbench" count="1"  craft_time = "60" tags="perkMiner69r">
+	<ingredient name="meleeToolAxeT3Chainsaw" count="1"/>
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceRepairKit" count="10"/>
+	<ingredient name="meleeToolAxeT3ChainsawParts" count="4"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+
+<recipe name="HD Generator" count="1" craft_area="workbench" craft_time = "60">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="30"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceOil" count="5"/>
+</recipe>
+
+<recipe name="HD Cell" count="1" craft_area="workbench" craft_time="30" tags="perkYeahScience" >
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceDuctTape" count="6"/>
+	<ingredient name="carBattery" count="4"/>
+	<ingredient name="resourceOil" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+</recipe>
+
+</append>
+</configs>
