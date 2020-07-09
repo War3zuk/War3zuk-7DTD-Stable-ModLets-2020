@@ -4,11 +4,11 @@
 
 <item name="HD Mini Hatchet">
 	<property name="DescriptionKey" value="HDMiniHatchetDesc"/>
-	<property name="Extends" value="meleeToolStoneAxe"/>
+	<property name="Extends" value="meleeToolRepairT0StoneAxe"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="Tags" value="axe,melee,light,tool,tazas,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="EconomicValue" value="150"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Mini Taza Hatchet.unity3d?HD Mini Taza Hatchet.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Hatchet.unity3d?HD Mini Hatchet.Prefab"/>
 	<property name="CustomIcon" value="HD Mini Hatchet"/>
 	<property name="Material" value="Mmetal_medium"/>
 	<property name="Weight" value="6"/>
@@ -43,10 +43,10 @@
 
 <item name="HD Tazas Hatchet">
 	<property name="DescriptionKey" value="HDTazasHatchetDesc"/>
-	<property name="Extends" value="meleeToolStoneAxe"/>
+	<property name="Extends" value="meleeToolRepairT0StoneAxe"/>
 	<property name="Tags" value="axe,melee,light,tool,tazas,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic"/>
 	<property name="EconomicValue" value="150"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Mini Taza Hatchet.unity3d?HD Mini Taza Hatchet.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Hatchet.unity3d?HD Mini Taza Hatchet.Prefab"/>
 	<property name="CustomIcon" value="HD Tazas Hatchet"/>
 	<property name="Material" value="Mmetal_medium"/>
 	<property name="Weight" value="6"/>

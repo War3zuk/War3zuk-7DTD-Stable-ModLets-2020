@@ -62,8 +62,8 @@
 
 		<action type="SpawnEnemy" id="animalZombieDog" value="8" phase="3" />
 		<objective type="ZombieKill" id="animalZombieDog" value="4" phase="3" />
-		<action type="SpawnEnemy" id="Giant Boar" value="5" phase="4" />
-		<objective type="AnimalKill" id="Giant Boar" value="2" phase="4" />
+		<action type="SpawnEnemy" id="animalBoar" value="5" phase="4" />
+		<objective type="AnimalKill" id="animalBoar" value="2" phase="4" />
 
 		<objective type="InteractWithNPC">
 			<property name="phase" value="5"/>
