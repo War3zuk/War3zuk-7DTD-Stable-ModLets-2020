@@ -1,0 +1,70 @@
+<configs>
+	
+<append xpath="/recipes">
+
+<recipe name="HD Auger" craft_area="HD WorkBench" count="1"  craft_time = "60" tags="perkMiner69r">
+	<ingredient name="meleeToolPickT3Auger" count="1"/>
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceRepairKit" count="10"/>
+	<ingredient name="meleeToolAxeT3ChainsawParts" count="4"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+
+<recipe name="HD Chainsaw" craft_area="HD WorkBench" count="1"  craft_time = "60" tags="perkMiner69r">
+	<ingredient name="meleeToolAxeT3Chainsaw" count="1"/>
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceRepairKit" count="10"/>
+	<ingredient name="meleeToolAxeT3ChainsawParts" count="4"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+
+<recipe name="HDScrapIronAxe" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">
+	<ingredient name="resourceScrapIron" count="50"/>
+	<ingredient name="resourceNail" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+<recipe name="HDScrapIronPickAxe" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">
+	<ingredient name="resourceScrapIron" count="40"/>
+	<ingredient name="resourceNail" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+<recipe name="HDScrapIronShovel" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">
+	<ingredient name="resourceScrapIron" count="20"/>
+	<ingredient name="resourceNail" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+<recipe name="HDScrapIronClub" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">
+	<ingredient name="resourceScrapIron" count="25"/>
+	<ingredient name="resourceNail" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+<recipe name="HDScrapIronShiv" count="1" craft_time = "10" craft_exp_gain="100" tags="perkDeepCuts">
+	<ingredient name="resourceScrapIron" count="10"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceNail" count="2"/>
+	<ingredient name="resourceWood" count="2"/>
+</recipe>
+
+<recipe name="HD Scrap Wrench" count="1" craft_time = "60" tags="perkSalvageOperations">
+	<ingredient name="resourceScrapIron" count="250"/>
+	<ingredient name="resourceMechanicalParts" count="8"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="16"/>
+	<ingredient name="resourceSpring" count="4"/>
+</recipe>
+
+</append>
+</configs>

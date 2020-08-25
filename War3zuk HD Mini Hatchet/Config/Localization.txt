@@ -1,0 +1,5 @@
+Key,Source,Context,Changes,English
+
+HDMiniHatchetDesc,items,,,Good Quality Starter Hatchet. Add points into Miner69er to improve its Quality,
+
+HDTazasHatchetDesc,items,,,Good Quality Taza Hatchet. Add points into Miner69er to improve its Quality,

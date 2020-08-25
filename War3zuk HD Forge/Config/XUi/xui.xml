@@ -1,0 +1,20 @@
+<configs>
+
+<append xpath="/xui/ruleset[@name='default']" >
+
+<window_group name="workstation_HD Forge" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="windowCraftingQueue"/>
+	<window name="windowToolsForge"/>
+	<window name="windowFuel"/>
+	<window name="WARwindowForgeInput"/>
+	<window name="windowOutput"/>
+	<window name="windowNonPagingHeader"/>
+</window_group>
+
+</append>
+
+<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowForgeInput']/@name">WARwindowForgeInput</set>
+
+</configs>

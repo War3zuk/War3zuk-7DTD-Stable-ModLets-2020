@@ -1,0 +1,14 @@
+<configs>
+	
+    <set xpath="/items/item/effect_group/passive_effect[(@name='EntityDamage') and (@value='-.15,.15')]/@value">.15</set>
+	<set xpath="/items/item/effect_group/passive_effect[(@name='EntityDamage') and (@value='.1,.5')]/@value">.5</set>
+    <set xpath="/items/item/effect_group/passive_effect[(@name='BlockDamage') and (@value='-.15,.15')]/@value">.15</set>
+    <set xpath="/items/item/effect_group/passive_effect[(@name='StaminaLoss') and (@value='-.05,.05')]/@value">.05</set>
+    <set xpath="/items/item/effect_group/passive_effect[(@name='RoundsPerMinute') and (@value='-.05,.05')]/@value">.05</set>
+    <set xpath="/items/item/effect_group/passive_effect[(@name='RoundsPerMinute') and (@value='-.1,.1')]/@value">.1</set>
+    <set xpath="/items/item/effect_group/passive_effect[(@name='AttacksPerMinute') and (@value='-.05,.05')]/@value">.05</set>
+    <set xpath="/items/item/effect_group/passive_effect[(@name='WeaponHandling') and (@value='-.08,.08')]/@value">.08</set>
+    <set xpath="/items/item/effect_group/passive_effect[(@name='MagazineSize') and (@value='-.122,.122')]/@value">.122</set>
+    <set xpath="/items/item/effect_group/passive_effect[(@name='DamageFalloffRange') and (@value='-.2,.2')]/@value">.2</set>
+
+</configs>

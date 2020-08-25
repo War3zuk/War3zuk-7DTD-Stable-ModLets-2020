@@ -1,0 +1,44 @@
+<configs>
+	
+<append xpath="/items">
+
+<item name="toolBellows">
+	<property name="UnlockedBy" value="toolBellowsSchematic"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MtoolBellows"/>
+	<property name="Stacknumber" value="50"/>
+	<property name="Weight" value="100"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="DisplayType" value="toolBellows"/>
+	<property name="ItemTypeIcon" value="forge"/>
+	<effect_group tiered="false">
+		<passive_effect name="CraftingSmeltTime" operation="perc_add" value="-.666"/>
+		<display_value name="dCraftingSmeltTime" value=".4"/>
+	</effect_group>
+</item>
+
+<item name="toolAnvil">
+	<property name="UnlockedBy" value="toolAnvilSchematic"/>
+	<property name="Tags" value="toolAnvil"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="200"/>
+	<property name="Stacknumber" value="50"/>
+	<property name="EconomicValue" value="240"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="DisplayType" value="toolAnvil"/>
+	<property name="ItemTypeIcon" value="forge"/>
+	<effect_group tiered="false">
+		<requirement name="!HoldingItemHasTags" tags="toolAnvil"/>
+			<passive_effect name="CraftingTime" operation="perc_add" value="-.666"/>
+			<display_value name="dCraftingTime" value=".4"/>
+	</effect_group>
+</item>
+
+</append>
+</configs>

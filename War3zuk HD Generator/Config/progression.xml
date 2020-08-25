@@ -1,0 +1,5 @@
+<configs>
+	
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@level='4,5']/@tags">,HD Gas Generator,HD Generator</append>
+	
+</configs>

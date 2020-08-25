@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	<append xpath="/recipes">
+		<recipe name="Golden Ticket" count="1">
+			<ingredient name="casinoCoin" count="10000"/>
+		</recipe>
+		
+		<recipe name="casinoCoin" count="10000">
+			<ingredient name="Golden Ticket" count="1"/>
+		</recipe>
+	</append>
+</configs>

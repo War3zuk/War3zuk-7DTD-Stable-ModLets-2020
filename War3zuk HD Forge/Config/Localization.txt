@@ -1,0 +1,3 @@
+Key,Source,Context,Changes,English
+
+HDForgeDesc,,blocks,Workstation,Quicker And Better Looking.

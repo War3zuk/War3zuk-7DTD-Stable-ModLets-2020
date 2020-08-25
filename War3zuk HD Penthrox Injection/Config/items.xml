@@ -1,0 +1,66 @@
+<configs>
+	
+<append xpath="/items">
+	
+<item name="HD Penthrox Injection">
+	<property name="DescriptionKey" value="PenthroxDesc"/>
+	<property name="DisplayType" value="medical"/>
+	<property name="CustomIcon" value="Penthrox Injection"/>
+	<property name="HoldType" value="16"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Penthrox.unity3d?HD Penthrox Injection.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="EconomicValue" value="950"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="Group" value="Science"/>
+	<property name="ActionSkillGroup" value="Medicine"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_firstAidKit"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="UseOther"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_firstAidKit"/>
+	</property>
+	<effect_group tiered="false">
+		
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffPenthrox"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" target="self" message="Zombies can No longer Detect you for a short time!!"/>
+		
+        <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponFire" value="true"/>
+        <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponFire" value="false"/>
+		
+	</effect_group>
+</item>
+
+<item name="HD Poison Vile">
+	<property name="DescriptionKey" value="PoisonVileDesc"/>
+	<property name="HoldType" value="3"/>
+	<property name="DisplayType" value="water"/>
+	<property name="CustomIcon" value="Poison Vile"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Penthrox.unity3d?HD Poison Vile.Prefab"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="200"/>
+	<property name="CraftingIngredientTime" value="10"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Gain_health" value="-50"/>
+		<property name="Sound_start" value="player_eating"/>
+	</property>
+	<property name="Group" value="Resources"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="-1000"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInternalBleeding"/>
+	</effect_group>
+</item>
+
+</append>
+</configs>

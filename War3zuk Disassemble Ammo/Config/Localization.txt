@@ -1,0 +1,28 @@
+Key,Source,Context,Changes,English
+D9A10Desc,items,Ammo,New,Now that your 9mm Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DHP9A10Desc,items,Ammo,New,Now that your 9mm HP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DAP9A10Desc,items,Ammo,New,Now that your 9mm AP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D44MA10Desc,items,Ammo,New,Now that your 44Mag Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DHP44MA10Desc,items,Ammo,New,Now that your 44Mag HP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DAP44MA10Desc,items,Ammo,New,Now that your 44Mag AP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D762A10Desc,items,Ammo,New,Now that your 762 Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DHP762A10Desc,items,Ammo,New,Now that your 762 HP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DAP762A10Desc,items,Ammo,New,Now that your 762 AP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DBA10Desc,items,Ammo,New,Now that your BlunderBuss Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DSSA10Desc,items,Ammo,New,Now that your ShotGun Shell Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DSSlugA10Desc,items,Ammo,New,Now that your ShotGun Slug Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DSBreachSA10Desc,items,Ammo,New,Now that your ShotGun Breaching Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DMC10Desc,items,Ammo,New,Now that your Molotov Cocktail Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,

@@ -1,0 +1,18 @@
+<configs>
+	
+	<append xpath="/recipes">
+		
+<recipe name="HD Penthrox Injection" craft_time = "60" count="1">
+	<ingredient name="HD Poison Vile" count="1"/>
+	<ingredient name="foodRottingFlesh" count="1"/>
+</recipe>
+
+<recipe name="HD Poison Vile" craft_time = "60" count="1">
+	<ingredient name="foodRottingFlesh" count="10"/>
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="resourceAcid" count="5"/>
+	<ingredient name="resourceBone" count="5"/>
+</recipe>
+	
+</append>
+</configs>

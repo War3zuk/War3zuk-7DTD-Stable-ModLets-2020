@@ -1,0 +1,15 @@
+<configs>
+	
+<append xpath="/buffs">
+
+<buff name="HD Penthrox Injection" tags="drug" icon="ui_game_symbol_stealth">
+	<stack_type value="duration"/>
+	<duration value="120"/>
+	<effect_group>
+		<passive_effect name="LightMultiplier" operation="perc_subtract" value="0.9999" />
+		<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="0.9999"/>
+	</effect_group>
+</buff>
+
+</append>
+</configs>

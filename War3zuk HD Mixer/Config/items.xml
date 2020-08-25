@@ -1,0 +1,77 @@
+<configs>
+	
+<append xpath="/items">
+
+<item name="HD Cement Mixer Schematic">
+	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Cement Mixer Schematic"/>
+	<property name="Unlocks" value="HDCementMixer"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDCementMixer" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMotor125cc" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMotor250cc" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMotor500cc" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+	</effect_group>
+</item>
+
+<item name="HDMotor125cc">
+	<property name="UnlockedBy" value="HD Cement Mixer Schematic"/>
+	<property name="DescriptionKey" value="HDMotor125ccDesc"/>
+	<property name="CustomIcon" value="HDMotor"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="200"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="150"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="DisplayType" value="toolAnvil"/>
+	<effect_group tiered="false">
+		<passive_effect name="CraftingTime" operation="perc_add" value="-.050"/>
+		<display_value name="dCraftingTime" value=".5"/>
+	</effect_group>
+</item>
+
+<item name="HDMotor250cc">
+	<property name="UnlockedBy" value="HD Cement Mixer Schematic"/>
+	<property name="DescriptionKey" value="HDMotor250ccDesc"/>
+	<property name="CustomIcon" value="HDMotor"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="200"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="DisplayType" value="toolAnvil"/>
+	<effect_group tiered="false">
+		<passive_effect name="CraftingTime" operation="perc_add" value="-.150"/>
+		<display_value name="dCraftingTime" value=".5"/>
+	</effect_group>
+</item>
+
+<item name="HDMotor500cc">
+	<property name="UnlockedBy" value="HD Cement Mixer Schematic"/>
+	<property name="DescriptionKey" value="HDMotor500ccDesc"/>
+	<property name="CustomIcon" value="HDMotor"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Weight" value="200"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="550"/>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="DisplayType" value="toolAnvil"/>
+	<effect_group tiered="false">
+		<passive_effect name="CraftingTime" operation="perc_add" value="-.300"/>
+		<display_value name="dCraftingTime" value=".5"/>
+	</effect_group>
+</item>
+
+</append>
+</configs>

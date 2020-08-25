@@ -1,0 +1,18 @@
+Key,Source,Context,Changes,English
+
+HDChainsawDesc,items,Tools,New,The HD ChainSaw will do 50% more Damage than the vanilla version Improve it by putting skill points into the perkMiner69r.
+
+HDAugerDesc,items,Tools,New,The HD Auger will do 50% more Damage than the vanilla version Improve it by putting skill points into the perkMiner69r.
+
+HDScrapIronAxe,items,Item,KgNone,HD Scrap Iron Axe,
+
+HDScrapIronPickAxe,items,Item,KgNone,HD Scrap Iron Pick Axe,
+
+HDScrapIronShovel,items,Item,KgNone,HD Scrap Iron Shovel,
+
+HDScrapIronClub,items,Item,KgNone,HD Scrap Iron Club,
+
+HDScrapIronShiv,items,Item,KgNone,HD Scrap Iron Shiv,
+
+HDScrapIronAxeDesc,items,,,High Quality Scrap Iron Tool Meant For Early Game,
+

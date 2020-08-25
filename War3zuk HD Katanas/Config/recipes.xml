@@ -1,0 +1,24 @@
+<configs>
+	
+<append xpath="/recipes">
+
+<recipe name="HD Shuriken Katana" count="1" craft_time = "60" tags="perkDeepCuts">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceOil" count="5"/>
+</recipe>
+
+<recipe name="HD Wakizashi Katana" count="1" craft_time = "60" tags="perkDeepCuts">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceOil" count="5"/>
+</recipe>
+
+<recipe name="HD Dragon Katana" count="1" craft_time = "60" tags="perkDeepCuts">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceOil" count="5"/>
+</recipe>
+
+</append>
+</configs>

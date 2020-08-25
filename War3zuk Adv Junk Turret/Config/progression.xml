@@ -1,0 +1,6 @@
+<configs>
+
+	<set xpath="/progression/perks/perk[@name='perkTurrets']/effect_group/passive_effect[@name='JunkTurretActiveRange']/@value">50,60,70,80,90,100</set>
+	<append xpath="/progression/perks/perk[@name='perkTurrets']/effect_group/passive_effect[@level='4,5']/@tags">,HD Junk Turret 9mm,HD Junk Turret 762mm</append>
+		
+</configs>

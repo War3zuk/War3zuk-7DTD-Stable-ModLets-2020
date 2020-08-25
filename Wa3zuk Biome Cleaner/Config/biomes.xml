@@ -1,0 +1,15 @@
+<War3zuk>
+
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland_hub']/decorations/decoration[@blockname='treeDeadPineLeaf']" />
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@blockname='scrapMetalPile']" />
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland_hub']/decorations/decoration[@blockname='cinderBlocks01']" />
+
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland_hub']/decorations/decoration[@blockname='cinderBlocks03']" />
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@blockname='mineHubcap']" />
+	<remove xpath="worldgeneration/biomes/biome[@name='desert']/decorations/decoration[@blockname='driftwood']" />
+	<remove xpath="worldgeneration/biomes/biome[@name='desert']/decorations/decoration[@blockname='driftwood2']" />
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@blockname='cinderBlocks01']" />
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@blockname='cinderBlocks02']" />
+	<remove xpath="worldgeneration/biomes/biome[@name='wasteland']/decorations/decoration[@blockname='cinderBlocks03']" />
+	
+</War3zuk>

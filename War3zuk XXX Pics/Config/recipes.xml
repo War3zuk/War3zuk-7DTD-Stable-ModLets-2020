@@ -1,0 +1,66 @@
+<configs>
+	
+<append xpath="/recipes">
+
+<recipe name="Painting XXX 001" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 002" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 003" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 004" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 005" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 006" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 007" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 008" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 009" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 010" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+	
+</append>
+</configs>

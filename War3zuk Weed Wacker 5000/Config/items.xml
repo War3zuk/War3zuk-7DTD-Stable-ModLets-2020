@@ -1,0 +1,90 @@
+<config>
+	
+<append xpath="/items">
+		
+<item name="Weed Wacker 5000">
+	<property name="Tags" value="machete,canHaveCosmetic"/>
+	<property name="CustomIcon" value="Weed Wacker 5000"/>
+	<property name="DescriptionKey" value="WW5000Desc"/>
+	<property name="DisplayType" value="meleeKnife"/>
+	<property name="HoldType" value="47"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Weed Wacker 5000.unity3d?HD Weed Wacker 5000.Prefab"/>
+	<property name="Material" value="Msteel"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+	<property class="Action0">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Damage_type" value="Slashing"/>
+		<property name="Sphere" value=".15"/>
+		<property name="Sound_start" value="machete_swinglight"/>
+		<property name="ToolCategory.Butcher" value="0" param1="0"/>
+		<property name="Sound_harvesting" value="open_animal" param1="organic"/>
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".28"/>
+		<property name="GrazeEnd" value=".4"/>
+		<property name="SwingDegrees" value="10"/>
+		<property name="SwingAngle" value="10"/>
+		<property class="HitSounds">
+			<property name="Override0" value="organic" param1="metalslashorganic"/>
+		</property>
+		<property class="GrazeSounds">
+			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		</property>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Damage_type" value="Slashing"/>
+		<property name="Sphere" value=".15"/>
+		<property name="Sound_start" value="machete_swingheavy"/>
+		<property name="ToolCategory.Butcher" value="0" param1="0"/>
+		<property name="Sound_harvesting" value="open_animal" param1="organic"/>
+		<property name="UsePowerAttackAnimation" value="true"/>
+		<property name="UseGrazingHits" value="true"/>
+		<property name="IsHorizontalSwing" value="true"/>
+		<property name="GrazeStart" value=".3"/>
+		<property name="GrazeEnd" value=".4"/>
+		<property name="SwingDegrees" value="-80"/>
+		<property name="SwingAngle" value="-60"/>
+		<property class="HitSounds">
+			<property name="Override0" value="organic" param1="metalslashorganic"/>
+		</property>
+		<property class="GrazeSounds">
+			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+		</property>
+	</property>
+	<effect_group name="meleeToolKnifeMachete">
+		<passive_effect name="EntityDamage" operation="base_set" value="0"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="500"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="0" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="5000,1000" tier="1,6" tags="perkDeepCuts"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="0.1" tags="perkDeepCuts"/>
+		<passive_effect name="MaxRange" operation="base_set" value="5.10"/>
+		<passive_effect name="BlockRange" operation="base_set" value="10"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="0" tags="EconomicValue"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="0"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="0" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="0"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="0" tier="2,6"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="metal"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
+		<display_value name="dBleeding" value="0"/>
+	</effect_group>
+	<effect_group name="Power Attack">
+		<passive_effect name="EntityDamage" operation="perc_add" value="0" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="0" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="0" tags="secondary"/>
+	</effect_group>
+</item>
+
+</append>
+</config>
