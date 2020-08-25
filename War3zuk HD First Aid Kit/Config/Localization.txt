@@ -1,3 +1,0 @@
-Key,Source,Context,Changes,English
-
-HDFAKDesc,items,,,A More advanced version of the Medical Kit with Max Healing Also removes negative Buffs.
