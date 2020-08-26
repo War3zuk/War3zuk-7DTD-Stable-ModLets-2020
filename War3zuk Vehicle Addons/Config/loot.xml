@@ -1,0 +1,17 @@
+<configs>
+	
+	<remove xpath="/lootcontainers/lootcontainer[@id='66']"></remove>
+
+<append xpath="/lootcontainers">
+	
+<lootcontainer id="66" count="2,2" size="8,4" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
+	<item group="junk"/>
+	<item name="vehicleBicyclePlaceable" prob="0.025"/>
+	<item name="HDAeroDynamicsUpgrade" prob="0.1"/>
+	<item name="HDFuelSaverUpgrade" prob="0.1"/>
+	<item name="HDHeadlightsUpgrade" prob="0.1"/>
+	<item name="HDTurboUpgrade" prob="0.1"/>
+</lootcontainer>
+
+</append>
+</configs>

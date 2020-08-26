@@ -1,0 +1,11 @@
+Key,Source,Context,Changes,English
+
+AeroDynamicsUpgrade,items,Item,KgNone,Aero Dynamics Upgrade,
+FuelSaverUpgrade,items,Item,KgNone,Fuel Saver Upgrade,
+HeadlightsUpgrade,items,Item,KgNone,Headlights Upgrade,
+TurboUpgrade,items,Item,KgNone,Turbo Upgrade,
+
+AeroDynamicsUpgradeDesc,items,weapons,New,Improves Speed through AeroDynamics,
+FuelSaverUpgradeDesc,items,weapons,New,Use 50% less Fuel on your journeys,
+HeadlightsUpgradeDesc,items,weapons,New,Brighten Up the Map with this Ultra Cool Light Addon,
+TurboUpgradeDesc,items,weapons,New,Speed Speed Speed Muhhaaaa,

@@ -1,0 +1,6 @@
+<configs>
+	
+	<set xpath="/entity_classes/entity_class[@name='Backpack']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDPlayerRuckSack.Prefab</set>
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDRuckSackLoot.Prefab</set>
+  
+</configs>

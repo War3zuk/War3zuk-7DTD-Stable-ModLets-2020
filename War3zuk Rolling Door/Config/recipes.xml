@@ -1,0 +1,13 @@
+<configs>
+	
+<append xpath="/recipes">
+
+<recipe name="HD Rolling Door" count="1" craft_area="workbench" craft_time = "240" tags="workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="500"/>
+	<ingredient name="resourceForgedIron" count="500"/>
+	<ingredient name="resourceSpring" count="20"/>
+	<ingredient name="Titanium Polish" count="100"/>
+</recipe>
+
+</append>
+</configs>

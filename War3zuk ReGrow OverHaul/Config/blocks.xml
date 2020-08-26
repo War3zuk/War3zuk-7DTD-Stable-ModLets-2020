@@ -1,0 +1,463 @@
+<configs>
+	
+<append xpath="/blocks/block[@name='cntGunSafeInsecure']"> 
+	<property name="DowngradeBlock" value="WARcntGunSafeInsecure"/>
+</append>
+	
+<append xpath="/blocks/block[@name='cntHardenedChestInsecure']"> 
+	<property name="DowngradeBlock" value="WARcntHardenedChestInsecure"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCollapsedWorkbench']"> 
+	<property name="DowngradeBlock" value="WARcntCollapsedWorkbench"/>
+</append>
+	
+<append xpath="/blocks/block[@name='cntCollapsedChemistryStation']"> 
+	<property name="DowngradeBlock" value="WARcntCollapsedChemistryStation"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCollapsedCementMixer']"> 
+	<property name="DowngradeBlock" value="WARcntCollapsedCementMixer"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCar03SedanDamage2Master']"> 
+	<property name="DowngradeBlock" value="WARcarRespawner"/>
+</append>
+	
+<append xpath="/blocks/block[@name='cntBusSchool']"> 
+	<property name="DowngradeBlock" value="WARbusSchoolRespawner"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntBusSchoolShort']"> 
+	<property name="DowngradeBlock" value="WARbusSchoolShortRespawner"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntBusShuttle']"> 
+	<property name="DowngradeBlock" value="WARbusShuttleRespawner"/>
+</append>
+	
+<append xpath="/blocks/block[@name='cntBusCity']"> 
+	<property name="DowngradeBlock" value="WARbusCityRespawner"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntArmyTruckClosed']"> 
+	<property name="DowngradeBlock" value="WARarmyTruckClosedRespawner"/>
+</append>
+
+<append xpath="/blocks/block[@name='rockResourceBroke2']">
+    <property name="DowngradeBlock" value="WAR Rock Boulder 1"/>
+</append>
+	
+<append xpath="/blocks/block[@name='rockResource02Broke2']">
+    <property name="DowngradeBlock" value="WAR Rock Boulder 2"/>
+</append>
+	
+<append xpath="/blocks/block[@name='oreIronBoulder']">
+    <property name="DowngradeBlock" value="WAR Iron Boulder"/>
+</append>
+	
+<append xpath="/blocks/block[@name='oreLeadBoulder']">
+    <property name="DowngradeBlock" value="WAR Lead Boulder"/>
+</append>
+	
+<append xpath="/blocks/block[@name='oreCoalBoulder']">
+    <property name="DowngradeBlock" value="WAR Coal Boulder"/>
+</append>
+	
+<append xpath="/blocks/block[@name='orePotassiumNitrateBoulder']">
+    <property name="DowngradeBlock" value="WAR Potassium Nitrate Boulder"/>
+</append>
+	
+<append xpath="/blocks/block[@name='oreShaleBoulder']">
+    <property name="DowngradeBlock" value="WAR Shale Boulder"/>
+</append>
+
+<append xpath="/blocks/block[@name='radiatorHouse01']"> 
+	<property name="DowngradeBlock" value="WARradiatorHouse01"/>
+</append>
+	
+	<append xpath="/blocks">
+		
+<block name="WARcarRespawner">
+	<property name="CustomIcon" value="decoCarTireFlat" />
+	<property name="Extends" value="decoEntityPolymerMaster"/>			
+	<property name="IsDeveloper" value="true" />
+	<property name="Class" value="PlantGrowing" />
+	<property name="Material" value="MstainlessSteel"/>			
+	<property name="StabilitySupport" value="false"/>
+	<property name="Texture" value="282"/>
+	<property name="Model" value="#Entities/Vehicles?Car/car_tirePrefab.prefab"/>		
+	<property name="Collide" value="melee"/>
+	<property name="CanMobsSpawnOn" value="false" />
+		<drop event="Destroy" name="resourceScrapPolymers" count="50,100" tag="oreWoodHarvest"/>	
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="PlantGrowing.Next" value="carsRandomHelper" />
+	<property name="PlantGrowing.GrowthRate" value="240" />
+	<property name="PlantGrowing.FertileLevel" value="0" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+</block>
+
+<block name="WARbusShuttleRespawner">
+	<property name="CustomIcon" value="decoCarTireFlat" />
+	<property name="CustomIconTint" value="ff0000"/>
+	<property name="Extends" value="decoEntityPolymerMaster"/>			
+	<property name="IsDeveloper" value="true" />
+	<property name="Class" value="PlantGrowing" />
+	<property name="Material" value="MstainlessSteel"/>			
+	<property name="StabilitySupport" value="false"/>
+	<property name="Texture" value="282"/>
+	<property name="Model" value="#Entities/Vehicles?Car/car_tirePrefab.prefab"/>		
+	<property name="Collide" value="melee"/>
+	<property name="CanMobsSpawnOn" value="false" />
+		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="PlantGrowing.Next" value="cntBusShuttle" />
+	<property name="PlantGrowing.GrowthRate" value="240" />
+	<property name="PlantGrowing.FertileLevel" value="0" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+</block>
+
+<block name="WARbusCityRespawner">
+	<property name="CustomIcon" value="decoCarTireFlat" />
+	<property name="CustomIconTint" value="ff0000"/>
+	<property name="Extends" value="decoEntityPolymerMaster"/>			
+	<property name="IsDeveloper" value="true" />
+	<property name="Class" value="PlantGrowing" />
+	<property name="Material" value="MstainlessSteel"/>			
+	<property name="StabilitySupport" value="false"/>
+	<property name="Texture" value="282"/>
+	<property name="Model" value="#Entities/Vehicles?Car/car_tirePrefab.prefab"/>		
+	<property name="Collide" value="melee"/>
+	<property name="CanMobsSpawnOn" value="false" />
+		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="PlantGrowing.Next" value="cntBusCity" />
+	<property name="PlantGrowing.GrowthRate" value="240" />
+	<property name="PlantGrowing.FertileLevel" value="0" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+</block>
+	
+<block name="WARbusSchoolRespawner">
+	<property name="CustomIcon" value="decoCarTireFlat" />
+	<property name="CustomIconTint" value="ff0000"/>
+	<property name="Extends" value="decoEntityPolymerMaster"/>			
+	<property name="IsDeveloper" value="true" />
+	<property name="Class" value="PlantGrowing" />
+	<property name="Material" value="MstainlessSteel"/>			
+	<property name="StabilitySupport" value="false"/>
+	<property name="Texture" value="282"/>
+	<property name="Model" value="#Entities/Vehicles?Car/car_tirePrefab.prefab"/>		
+	<property name="Collide" value="melee"/>
+	<property name="CanMobsSpawnOn" value="false" />
+		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="PlantGrowing.Next" value="cntBusSchool" />
+	<property name="PlantGrowing.GrowthRate" value="240" />
+	<property name="PlantGrowing.FertileLevel" value="0" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+</block>
+	
+<block name="WARbusSchoolShortRespawner">
+	<property name="CustomIcon" value="decoCarTireFlat" />
+	<property name="CustomIconTint" value="ff0000"/>
+	<property name="Extends" value="decoEntityPolymerMaster"/>			
+	<property name="IsDeveloper" value="true" />
+	<property name="Class" value="PlantGrowing" />
+	<property name="Material" value="MstainlessSteel"/>			
+	<property name="StabilitySupport" value="false"/>
+	<property name="Texture" value="282"/>
+	<property name="Model" value="#Entities/Vehicles?Car/car_tirePrefab.prefab"/>		
+	<property name="Collide" value="melee"/>
+	<property name="CanMobsSpawnOn" value="false" />
+		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="PlantGrowing.Next" value="cntBusSchoolShort" />
+	<property name="PlantGrowing.GrowthRate" value="240" />
+	<property name="PlantGrowing.FertileLevel" value="0" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+</block>
+	
+<block name="WARarmyTruckClosedRespawner">
+	<property name="CustomIcon" value="decoCarTireFlat" />
+	<property name="CustomIconTint" value="ff0000"/>
+	<property name="Extends" value="decoEntityPolymerMaster"/>			
+	<property name="IsDeveloper" value="true" />
+	<property name="Class" value="PlantGrowing" />
+	<property name="Material" value="MstainlessSteel"/>			
+	<property name="StabilitySupport" value="false"/>
+	<property name="Texture" value="282"/>
+	<property name="Model" value="#Entities/Vehicles?Car/car_tirePrefab.prefab"/>		
+	<property name="Collide" value="melee"/>
+	<property name="CanMobsSpawnOn" value="false" />
+		<drop event="Destroy" name="resourceScrapPolymers" count="3,7" tag="oreWoodHarvest"/>	
+	<property name="IsTerrainDecoration" value="true" />
+	<property name="PlantGrowing.Next" value="cntArmyTruckClosed" />
+	<property name="PlantGrowing.GrowthRate" value="240" />
+	<property name="PlantGrowing.FertileLevel" value="0" />
+	<property name="PlantGrowing.IsRandom" value="false" />
+</block>
+
+<block name="WAR Rock Boulder Master">
+	<property name="CustomIcon" value="rockResourceBroke2"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="Material" value="MstainlessSteel"/>
+    <property name="Shape" value="New"/>
+    <property name="Texture" value="175"/>
+    <property name="Mesh" value="cutoutmoveable"/>
+    <property name="Model" value="rock01"/>
+    <property name="OnlySimpleRotations" value="true"/>
+    <property name="Collide" value="melee,bullet,arrow,rocket"/>
+      <drop event="Destroy" name="resourceRockSmall" count="1"/>
+    <property name="Map.Color" value="120,120,120"/>
+    <property name="FilterTags" value="foutdoor"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="rockResource"/>
+    <property name="PlantGrowing.GrowthRate" value="360"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="10"/>
+		</property>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+</block>
+    
+<block name="WAR Rock Boulder 1">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="StabilitySupport" value="false"/>
+</block>
+	
+<block name="WAR Rock Boulder 2">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="PlantGrowing.Next" value="rockResource02"/>
+    <property name="CustomIcon" value="rockResource"/>
+</block>
+    
+<block name="WAR Rock Boulder 3">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="Shape" value="ModelEntity"/>
+    <property name="BigDecorationRadius" value="3"/>
+    <property name="IsDistantDecoration" value="false"/>
+    <property name="Model" value="Entities/Resources/rock_resource_broke2Prefab"/>
+    <property name="ModelOffset" value="0,0,0"/>
+    <property name="DisplayType" value="blockHardenedMulti" />
+    <property name="MultiBlockDim" value="3,2,3"/>
+    <property name="PassThroughDamage" value="true"/>
+</block>
+
+<block name="WAR Rock Boulder 4">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder 3"/>
+    <property name="PlantGrowing.Next" value="rockResource02"/>
+    <property name="CustomIcon" value="rockResource02Broke2"/>
+</block>
+    
+<block name="WAR Iron Boulder">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="StabilitySupport" value="false"/>
+    <property name="PlantGrowing.Next" value="oreIronBoulder"/>
+    <property name="CustomIcon" value="oreIronBoulder"/>
+</block>
+
+<block name="WAR Lead Boulder">
+    <property name="CreativeMode" value="Dev"/>
+  	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="StabilitySupport" value="false"/>
+    <property name="PlantGrowing.Next" value="oreLeadBoulder"/>
+    <property name="CustomIcon" value="oreLeadBoulder"/>
+</block>
+	
+<block name="WAR Coal Boulder">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="StabilitySupport" value="false"/>
+    <property name="PlantGrowing.Next" value="oreCoalBoulder"/>
+    <property name="CustomIcon" value="oreCoalBoulder"/>
+</block>
+	
+<block name="WAR Potassium Nitrate Boulder">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="StabilitySupport" value="false"/>
+    <property name="PlantGrowing.Next" value="orePotassiumNitrateBoulder"/>
+    <property name="CustomIcon" value="orePotassiumNitrateBoulder"/>
+</block>
+	
+<block name="WAR Shale Boulder">
+    <property name="CreativeMode" value="Dev"/>
+   	<property name="Extends" value="WAR Rock Boulder Master"/>
+    <property name="StabilitySupport" value="false"/>
+    <property name="PlantGrowing.Next" value="oreShaleBoulder"/>
+    <property name="CustomIcon" value="oreShaleBoulder"/>
+</block>
+
+<block name="WARcntGunSafeInsecure">
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="safes"/>
+	<property name="CustomIcon" value="cntGunSafe"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="Material" value="MstainlessSteel"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="pipe_cap"/>
+	<property name="Texture" value="191"/>
+	<property name="LootList" value="42"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="cntGunSafeInsecure"/>
+    <property name="PlantGrowing.GrowthRate" value="360"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="10"/>
+		</property>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="WARcntHardenedChestInsecure">
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="safes"/>
+	<property name="CustomIcon" value="cntGunSafe"/>
+	<property name="CustomIcon" value="rockResourceBroke2"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="Material" value="MstainlessSteel"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="pipe_cap"/>
+	<property name="Texture" value="191"/>
+	<property name="LootList" value="121"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="cntHardenedChestInsecure"/>
+    <property name="PlantGrowing.GrowthRate" value="360"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="10"/>
+		</property>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="WARcntCollapsedWorkbench">
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="safes"/>
+	<property name="CustomIcon" value="cntGunSafe"/>
+	<property name="CustomIcon" value="rockResourceBroke2"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="Material" value="MstainlessSteel"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="pipe_cap"/>
+	<property name="Texture" value="191"/>
+	<property name="LootList" value="92"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="cntCollapsedWorkbench"/>
+    <property name="PlantGrowing.GrowthRate" value="360"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="10"/>
+		</property>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="WARcntCollapsedCementMixer">
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="safes"/>
+	<property name="CustomIcon" value="cntGunSafe"/>
+	<property name="CustomIcon" value="rockResourceBroke2"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="Material" value="MstainlessSteel"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="pipe_cap"/>
+	<property name="Texture" value="191"/>
+	<property name="LootList" value="93"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="cntCollapsedCementMixer"/>
+    <property name="PlantGrowing.GrowthRate" value="360"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="10"/>
+		</property>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="WARcntCollapsedChemistryStation">
+	<property name="CreativeMode" value="None"/>
+	<property name="Tags" value="safes"/>
+	<property name="CustomIcon" value="cntCollapsedChemistryStation"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="Material" value="MstainlessSteel"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="pipe_cap"/>
+	<property name="Texture" value="191"/>
+	<property name="LootList" value="94"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="cntCollapsedChemistryStation"/>
+    <property name="PlantGrowing.GrowthRate" value="360"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property class="RepairItems">
+		<property name="resourceScrapIron" value="10"/>
+		</property>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="WARradiatorHouse01">
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="radiatorHouse01"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="Material" value="MstainlessSteel"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="pipe_cap"/>
+	<property name="Texture" value="191"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="radiatorHouse01"/>
+    <property name="PlantGrowing.GrowthRate" value="360"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+		<drop event="Destroy" name="resourceRadiator" count="1" tag="salvageHarvest" tool_category="Disassemble"/>
+		<drop event="Harvest" name="terrStone" count="0" tag="salvageHarvest" tool_category="Disassemble"/>
+</block>
+
+</append>
+</configs>

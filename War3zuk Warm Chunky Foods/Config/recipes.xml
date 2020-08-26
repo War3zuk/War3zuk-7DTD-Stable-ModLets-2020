@@ -1,0 +1,123 @@
+<configs>
+	
+	<append xpath="/recipes">
+	
+<recipe name="HDBowl" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="resourceClayLump" count="10"/>
+    <ingredient name="resourceYuccaFibers" count="5"/>
+</recipe>
+	
+<recipe name="Warm Chunky Honey" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodHoney" count="5"/>
+    <ingredient name="foodCanPears" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+	
+<recipe name="Warm Chunky Beef" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanBeef" count="4"/>
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+	
+<recipe name="Warm Chunky Chicken" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanChicken" count="4"/>
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+	
+<recipe name="Warm Chunky Lamb" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanLamb" count="4"/>
+	<ingredient name="foodCanSham" count="4"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+	
+<recipe name="Warm Chunky Surprise" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanCatfood" count="4"/>
+    <ingredient name="foodCanDogfood" count="4"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+	
+<recipe name="Warm Chunky Chili" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanChili" count="4"/>
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+	
+<recipe name="Warm Chunky Pasta" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanPasta" count="4"/>
+	<ingredient name="foodCanTuna" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>	
+	
+<recipe name="Warm Chunky Salmon" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanSalmon" count="2"/>
+    <ingredient name="foodCanSoup" count="2"/>
+	<ingredient name="foodCanPeas" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Sirloin" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanStock" count="2"/>
+    <ingredient name="foodRawMeat" count="20"/>
+	<ingredient name="foodCanMiso" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Vegetable Stew" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodVegetableStew" count="2"/>
+    <ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Meat Stew" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodMeatStew" count="2"/>
+    <ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Sham Chowder" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodShamChowder" count="2"/>
+    <ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Hobo Stew" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodHoboStew" count="2"/>
+    <ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Steak And Potato" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodSteakAndPotato" count="2"/>
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky ChiliDog" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodChiliDog" count="2"/>
+	<ingredient name="foodRawMeat" count="20"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Fish Taco" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodFishTacos" count="1"/>
+	<ingredient name="foodCanTuna" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Meat And Mash" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodRawMeat" count="20"/>
+	<ingredient name="foodCropPotato" count="10"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Shepards Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodShepardsPie" count="2"/>
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Gumbo Stew" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodGumboStew" count="2"/>
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+</append>
+</configs>

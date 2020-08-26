@@ -1,0 +1,80 @@
+<configs>
+	
+	<append xpath="/item_modifiers" >
+		
+	<item_modifier name="HDAeroDynamicsUpgrade" installable_tags="vehicle" modifier_tags="speed" type="attachment">
+		<property name="CreativeMode" value="Player"/>
+		<property name="DescriptionKey" value="AeroDynamicsUpgradeDesc"/>
+		<property name="CustomIcon" value="AeroDynamicsUpgrade"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="Material" value="Mplastics"/>
+		<property name="EconomicValue" value="140"/>
+		<property name="SellableToTrader" value="true"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<effect_group tiered="false">
+			<passive_effect name="VehicleVelocityMaxPer" operation="perc_set" value="2"/>
+			<passive_effect name="VehicleVelocityMaxTurboPer" operation="perc_set" value="2"/>
+		</effect_group>
+			<property name="EconomicValue" value="450"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDFuelSaverUpgrade" installable_tags="vehicle" modifier_tags="fuel" type="attachment">
+		<property name="CreativeMode" value="Player"/>
+		<property name="DescriptionKey" value="FuelSaverUpgradeDesc"/>
+		<property name="CustomIcon" value="FuelSaverUpgrade"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="Material" value="Mplastics"/>
+		<property name="EconomicValue" value="140"/>
+		<property name="SellableToTrader" value="true"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<effect_group tiered="false">
+			<passive_effect name="VehicleFuelUsePer" operation="perc_set" value=".5"/>
+		</effect_group>
+			<property name="EconomicValue" value="450"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDHeadlightsUpgrade" installable_tags="vehicle" modifier_tags="light" type="attachment">
+		<property name="CreativeMode" value="Player"/>
+		<property name="DescriptionKey" value="HeadlightsUpgradeDesc"/>
+		<property name="CustomIcon" value="HeadlightsUpgrade"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="Material" value="Mplastics"/>
+		<property name="EconomicValue" value="140"/>
+		<property name="SellableToTrader" value="true"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<effect_group tiered="false">
+			<passive_effect name="LightIntensity" operation="perc_set" value="2.5"/>
+		</effect_group>
+			<property name="EconomicValue" value="450"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDTurboUpgrade" installable_tags="vehicle" modifier_tags="test" type="attachment">
+		<property name="CreativeMode" value="Player"/>
+		<property name="DescriptionKey" value="TurboUpgradeDesc"/>
+		<property name="CustomIcon" value="TurboUpgrade"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="Material" value="Mplastics"/>
+		<property name="EconomicValue" value="140"/>
+		<property name="SellableToTrader" value="true"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<effect_group tiered="false">
+			<passive_effect name="VehicleVelocityMaxPer" operation="perc_set" value="3"/>
+			<passive_effect name="VehicleVelocityMaxTurboPer" operation="perc_set" value="3"/>
+		</effect_group>
+			<property name="EconomicValue" value="450"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+</append>
+</configs>

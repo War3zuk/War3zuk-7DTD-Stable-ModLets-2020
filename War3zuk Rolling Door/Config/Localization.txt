@@ -1,0 +1,3 @@
+Key,Source,Context,Changes,English
+
+HDRDDesc,items,,,A Titanium Re-Enforced Rolling Door to secure you from those Brain Eating Morons.
