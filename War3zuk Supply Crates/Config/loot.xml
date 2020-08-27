@@ -1,0 +1,87 @@
+<War3zuk>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='6']" >
+		<item name="Food Supply Flare" count="1" prob="0.2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='12']" >
+		<item name="Building Supply Flare" count="1" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='34']" >
+		<item name="Ammo Supply Flare" count="1" prob="0.1"/>
+		<item name="Building Supply Flare" count="1" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='70']" >
+		<item name="Health Supply Flare" count="1" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='110']" >
+		<item name="Food Supply Flare" count="1" prob="0.1"/>
+	</append>
+		
+	<append xpath="/lootcontainers/lootcontainer[@id='22']" >
+		<item name="Building Supply Flare" count="1" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='40']" >
+		<item name="Ammo Supply Flare" count="1" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='51']" >
+		<item name="Health Supply Flare" count="1" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='96']" >
+		<item name="Health Supply Flare" count="1" prob="0.1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='116']" >
+		<item name="Health Supply Flare" count="1" prob="0.1"/>
+	</append>
+	
+<append xpath="/lootcontainers">
+		
+<lootcontainer id="507" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="rareAutomotive" count="1"/>
+	<item group="groupToolsTiered" prob="5"/>
+	<item group="groupToolsT2" loot_prob_template="ProbT2"/>
+	<item group="groupToolsT3" loot_prob_template="ProbT3"/>
+	<item group="toolParts" count="1"/>
+	<item group="automotive" count="1"/>
+	<item group="minibikeParts" count="1"/>
+</lootcontainer>
+
+<lootcontainer id="508" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="rareMedicine" count="1"/>
+	<item group="medicine" count="1"/>
+	<item group="rareOres" count="1"/>
+	<item group="herbalRecipes" count="1"/>
+	<item group="airdropMedicine" count="1"/>
+	<item group="warmClothes" count="1"/>
+</lootcontainer>
+
+<lootcontainer id="509" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="groupAmmoRegularGunslingerT1" count="1"/>
+	<item group="groupAmmoRegularGunslingerT2" count="1"/>
+	<item group="groupArmorT0" loot_prob_template="ProbT0"/>
+	<item group="groupArmorT1" loot_prob_template="ProbT1"/>
+	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="ProbT1"/>
+	<item group="groupArmorT2" loot_prob_template="ProbT2"/>
+	<item group="groupWeaponsT3_Boomstick" count="1"/>
+	<item group="groupWeaponsT3_Machinegunner" count="1"/>
+	<item group="groupHeroChestLoot" count="1"/>
+</lootcontainer>
+
+<lootcontainer id="510" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+	<item group="cannedfood" count="1"/>
+	<item group="coldfood" count="1"/>
+	<item group="groupApparelClothes" count="1"/>
+	<item group="shamwaySafeFiller" count="1"/>
+	<item group="airdropMedicine" count="1"/>
+	<item group="rareFoodDrink" count="1"/>
+</lootcontainer>
+
+</append>
+</War3zuk>
