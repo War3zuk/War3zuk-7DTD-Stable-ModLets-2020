@@ -11,6 +11,7 @@
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalFirstAidKit"/>
 	<property name="HoldType" value="16"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mcloth"/>
 	<property name="Stacknumber" value="25000"/>
@@ -63,6 +64,7 @@
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalFirstAidKit"/>
 	<property name="HoldType" value="16"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mcloth"/>
 	<property name="Stacknumber" value="25000"/>
@@ -115,6 +117,7 @@
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalFirstAidKit"/>
 	<property name="HoldType" value="16"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mcloth"/>
 	<property name="Stacknumber" value="25000"/>
@@ -167,6 +170,7 @@
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalFirstAidKit"/>
 	<property name="HoldType" value="16"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mcloth"/>
 	<property name="Stacknumber" value="25000"/>

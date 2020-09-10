@@ -8,7 +8,6 @@
 	<property name="EquipSlot" value="Head"/>
 	<property name="CustomIcon" value="HD Military Helmet"/>
 	<property name="DescriptionKey" value="HDMASDesc"/>
-	<property name="UnlockedBy" value="perkLightArmor"/>
 	<effect_group name="military armor">
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
@@ -40,7 +39,6 @@
 	<property name="EquipSlot" value="Chest"/>
 	<property name="CustomIcon" value="HD Military Vest"/>
 	<property name="DescriptionKey" value="HDMASDesc"/>
-	<property name="UnlockedBy" value="perkLightArmor"/>
 	<effect_group name="military armor">
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
@@ -71,7 +69,6 @@
 	<property name="EquipSlot" value="Hands"/>
 	<property name="CustomIcon" value="HD Military Gloves"/>
 	<property name="DescriptionKey" value="HDMASDesc"/>
-	<property name="UnlockedBy" value="perkLightArmor"/>
 	<effect_group name="military armor">
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
@@ -102,7 +99,6 @@
 	<property name="EquipSlot" value="Legs"/>
 	<property name="CustomIcon" value="HD Military Legs"/>
 	<property name="DescriptionKey" value="HDMASDesc"/>
-	<property name="UnlockedBy" value="perkLightArmor"/>
 	<effect_group name="military armor">
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
@@ -133,7 +129,6 @@
 	<property name="EquipSlot" value="Feet"/>
 	<property name="CustomIcon" value="HD Military Boots"/>
 	<property name="DescriptionKey" value="HDMASDesc"/>
-	<property name="UnlockedBy" value="perkLightArmor"/>
 	<effect_group name="military without penalties">
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>

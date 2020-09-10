@@ -10,7 +10,7 @@
 	<property name="Tags" value="csScience"/>
 	<property name="Group" value="Science"/>
 	<property name="EconomicValue" value="150" />
-	<property name="UnlockedBy" value="perkYeahScience"/>
+	<property name="UnlockedBy" value="perkPhysician"/>
 	<property name="Stacknumber" value="25000"/>
 	<property name="DescriptionKey" value="HDFAKDesc"/>
 	<property class="Action0">

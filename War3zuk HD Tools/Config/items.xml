@@ -16,7 +16,6 @@
 	<property name="Group" value="Tools/Traps"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="1500"/>
-	<property name="UnlockedBy" value="perkMiner69r"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
@@ -86,7 +85,6 @@
 	<property name="Group" value="Tools/Traps"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="1500"/>
-	<property name="UnlockedBy" value="perkMiner69r"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>

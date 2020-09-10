@@ -15,14 +15,6 @@
 	<ingredient name="resourceMechanicalParts" count="50"/>
 	<ingredient name="resourceElectricParts" count="50"/>
 	<ingredient name="resourceScrapPolymers" count="100"/>
-	<ingredient name="HD Cell" count="1"/>
-</recipe>
-
-<recipe name="HD Scrap Wrench" count="1" craft_time = "60">
-	<ingredient name="resourceScrapIron" count="500"/>
-	<ingredient name="resourceDuctTape" count="20"/>
-	<ingredient name="resourceScrapPolymers" count="20"/>
-	<ingredient name="resourceSpring" count="10"/>
 </recipe>
 
 </append>

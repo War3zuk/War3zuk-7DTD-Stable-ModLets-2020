@@ -11,7 +11,7 @@
 	<property name="UnlockedBy" value="perkAdvancedEngineering,poweredDoorsSchematic"/>
 	<property name="Class" value="DoorSecure"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Material" value="Mmetal"/>
+	<property name="Material" value="Msteel"/>
 	<property name="LightOpacity" value="1"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Tags" value="door"/>

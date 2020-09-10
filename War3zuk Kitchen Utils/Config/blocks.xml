@@ -47,7 +47,6 @@
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Material" value="Mmetal" />
 	<property name="MaxDamage" value="750"/>
-	<property name="LootList" value="130" />
 	<property name="Group" value="Food/Cooking,Decor" />
 	<property name="ActiveRadiusEffects" value="+heatSource(1)"/>
 	<property class="Workstation">
