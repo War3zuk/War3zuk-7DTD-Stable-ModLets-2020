@@ -2,7 +2,7 @@
 	
 <append xpath="/recipes">
 
-<recipe name="HD Auger" craft_area="HD WorkBench" count="1"  craft_time = "60" tags="perkMiner69r">
+<recipe name="HD Auger" craft_area="workbench" count="1"  craft_time = "60" tags="perkMiner69r">
 	<ingredient name="meleeToolPickT3Auger" count="1"/>
 	<ingredient name="resourceForgedIron" count="10"/>
 	<ingredient name="resourceRepairKit" count="10"/>
@@ -10,7 +10,7 @@
 	<ingredient name="resourceOil" count="10"/>
 </recipe>
 
-<recipe name="HD Chainsaw" craft_area="HD WorkBench" count="1"  craft_time = "60" tags="perkMiner69r">
+<recipe name="HD Chainsaw" craft_area="workbench" count="1"  craft_time = "60" tags="perkMiner69r">
 	<ingredient name="meleeToolAxeT3Chainsaw" count="1"/>
 	<ingredient name="resourceForgedIron" count="10"/>
 	<ingredient name="resourceRepairKit" count="10"/>
