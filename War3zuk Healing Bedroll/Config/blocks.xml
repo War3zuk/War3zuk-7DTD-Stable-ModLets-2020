@@ -12,7 +12,6 @@
 	<property name="MaxDamage" value="100"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/HDBedRoll.unity3d?HDBedRoll.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
-	<property name="ModelOffset" value=".5,.5,0"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,1"/>
 	<property name="FallDamage" value=".8"/>
