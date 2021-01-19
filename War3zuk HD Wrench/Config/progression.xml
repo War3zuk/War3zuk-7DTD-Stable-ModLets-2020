@@ -1,7 +1,7 @@
 <configs>
 	
-	<append xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group/passive_effect[@level='3,5']/@tags">,HD Wrench</append>
+	<!--  <append xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group/passive_effect[@level='3,5']/@tags">,HD Wrench</append>
 	
-	<append xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group/passive_effect[@level='4,5']/@tags">,HD Impact Wrench</append>
+	<append xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group/passive_effect[@level='4,5']/@tags">,HD Impact Wrench</append> -->
 	
 </configs>

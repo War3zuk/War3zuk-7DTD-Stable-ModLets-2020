@@ -1,0 +1,27 @@
+<configs>
+	
+	<remove xpath="/lootcontainers/lootcontainer[@id='25']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='35']"></remove>
+	
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='24']" >
+<!-- birds nest-->
+<lootcontainer id="25" count="2,3" size="6,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" destroy_on_close="true" loot_quality_template="qualPlus1Template">
+	<item name="resourceFeather" count="2,8" prob="1"/>
+	<item name="foodEgg" count="1,3" prob="1"/>
+	<item name="resourceCloth" count="2,6" prob="1"/>
+	<item name="ammo9mmBulletBall" count="2,8" prob="0.5"/>
+	<item name="BabyChick" count="1,3" prob="1"/>
+</lootcontainer>
+</insertAfter>
+
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='34']" >
+<!-- tree hollowed stump, place where people stash things, -->
+<lootcontainer id="35" count="2,3" size="6,2" sound_open="UseActions/open_stump" sound_close="UseActions/close_stump" loot_quality_template="qualPlus1Template">
+	<item group="sportingGoods" count="1" prob="0.1"/>
+	<item name="foodHoney" count="1" prob="0.1"/>
+	<item name="ammo9mmBulletBall" count="5,10" prob="0.5"/>
+	<item name="BabyChick" count="2,4" prob="1"/>
+</lootcontainer>
+</insertAfter>
+
+</configs>

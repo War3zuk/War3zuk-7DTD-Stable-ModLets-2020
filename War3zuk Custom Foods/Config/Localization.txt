@@ -1,5 +1,21 @@
 Key,Source,Context,Changes,English
 
+ScyFangsPumpkinPieDesc,items,,,Hot. Sweet. Pumpkin Pie for when killing Zombies needs a Sweet Tooth.,
+
+MajorZNationsPizzaDesc,items,,,MeatFeast Pizza will keep your Tummy Full While zombie Slayin.,
+
+Takayans Sashimi,items,Item,KgNone,Takayan's Sashimi,
+TakayansSashimiDesc,items,,,Delicately sliced And prepare Fish to keep you full And ready for Zombie Slaying.,
+
+TikkidsBeefStripsDesc,items,,,Succulent Strips Of Beef gently coated And Cooked during the Zombie Apocalypse.,
+InxanitysTacoSurpriseDesc,items,,,A Blend Of Ingredients combined to produce the Best looking Taco to help during Hordes.,
+
+Coachs Chilli Donner Kebab,items,Item,KgNone,Coach's Chilli Donner Kebab,
+CoachsDonnerKebabDesc,items,,,Friday Night Pissup Food. WAIT Nope this is a Zombie Apocalypse. Now get out there And Kick Some Ass.,
+
+HDUnionRoasted,items,Item,KgNone,HD Union Roasted,
+HDUnionRoastedDesc,items,,,Kick Ass Coffee Just when you need the Buzz.,
+
 RabidAriesChickPieDesc,items,weapons,New,Nutritious And Good For You. What more could you ask for. Oh Yeah NOT killing more Innocent Chicks Lol.,
 
 GrabbysChilliFriesDesc,items,weapons,New,Grabbys Cheesy Fries with Chilli And Fresh Cheese. But do you see any Cows in this game.,

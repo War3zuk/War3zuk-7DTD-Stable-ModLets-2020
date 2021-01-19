@@ -1,6 +1,54 @@
 <configs>
 	
 	<append xpath="/items">
+		
+<item name="BabyChick">
+	<property name="DescriptionKey" value="BabyChickDesc"/>
+	<property name="CustomIcon" value="Baby Chick"/>
+    <property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HDChick.unity3d?HDChick.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HDChick.unity3d?HDChick.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="15"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+		</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="-50"/>
+		<display_value name="foodHealthAmount" value="-50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="-10"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+		
+<item name="HDUnionRoasted">
+	<property name="CustomIcon" value="HD Union Roasted"/>
+	<property name="DescriptionKey" value="HDUnionRoastedDesc"/>
+	<property name="Extends" value="drinkJarCoffee"/>
+	<property name="EconomicValue" value="350"/>
+	<effect_group tiered="false" name="Drink Tier Found">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="35"/>
+			<display_value name="dStaminaRegen" value=".35"/>
+			<display_value name="dHypothermalResist" value="20"/>
+			<display_value name="dDuration" value="600"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffCoffeeBSDuration" operation="add" value="603"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffCoffeeBSDuration" operation="set" value="603">
+			<requirement name="CVarCompare" cvar="$buffCoffeeBSDuration" operation="GT" value="603"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffBlackStrapCoffee"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
 
 <item name="HDBowl">
 	<property name="DescriptionKey" value="HDBowlDesc"/>
@@ -21,7 +69,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Science,CFChemicals,Medical"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -50,7 +98,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -79,7 +127,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -108,7 +156,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -137,7 +185,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -166,7 +214,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -195,7 +243,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -224,7 +272,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -253,7 +301,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -282,7 +330,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -311,7 +359,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -340,7 +388,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -369,7 +417,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -398,7 +446,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -427,7 +475,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -456,7 +504,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="110"/>
+	<property name="EconomicValue" value="310"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -485,7 +533,7 @@
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="100"/>
+	<property name="EconomicValue" value="350"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -510,11 +558,11 @@
 	<property name="Tags" value="food"/>
 	<property name="HoldType" value="31"/>
 	<property name="DisplayType" value="foodCureInfection"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="100"/>
+	<property name="EconomicValue" value="350"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -539,11 +587,11 @@
 	<property name="Tags" value="food"/>
 	<property name="HoldType" value="31"/>
 	<property name="DisplayType" value="foodCureInfection"/>
-	<property name="Meshfile" value="#Other/Items?Misc/parcelPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
-	<property name="EconomicValue" value="100"/>
+	<property name="EconomicValue" value="350"/>
 	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -559,6 +607,56 @@
 		<display_value name="dCureInfection" value=".01"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+	</effect_group>
+</item>
+
+<item name="Chicken Nuggets">
+	<property name="DescriptionKey" value="ChickenNuggetsDesc"/>
+	<property name="CustomIcon" value="Chicken Nuggets"/>
+    <property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="35"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+		</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="KillJoyJessicas HotWings">
+	<property name="DescriptionKey" value="KillJoyHotWingsDesc"/>
+	<property name="CustomIcon" value="KillJoyJessicas HotWings"/>
+    <property name="HoldType" value="31"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="35"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_eating"/>
+		</property>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="35"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="35"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 	</effect_group>
 </item>
 
@@ -680,9 +778,9 @@
 		<property name="Sound_start" value="player_eating"/>
 	</property>
 	<effect_group tiered="false" name="Food Tier 0">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="65"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="65"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="55"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="55"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 	</effect_group>
 </item>
@@ -980,8 +1078,8 @@
 	<property name="Sound_start" value="player_eating"/>
 	</property>
 	<effect_group tiered="false" name="Food Tier 0">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="55"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="55"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="45"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 	</effect_group>
@@ -1005,8 +1103,8 @@
 	<property name="Sound_start" value="player_eating"/>
 	</property>
 	<effect_group tiered="false" name="Food Tier 0">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="55"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="55"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="45"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 	</effect_group>
@@ -1019,6 +1117,31 @@
 	<property name="DisplayType" value="food"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<property class="Action0">
+	<property name="Class" value="Eat"/>
+	<property name="Delay" value="1.0"/>
+	<property name="Use_time" value="..."/>
+	<property name="Sound_start" value="player_eating"/>
+	</property>
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="RabidAries Cute Chick Pie">
+	<property name="HoldType" value="31"/>
+	<property name="DescriptionKey" value="RabidAriesChickPieDesc"/>
+	<property name="CustomIcon" value="RabidAries Cute Chick Pie"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/Cute Chick Pie.unity3d?Cute Chick Pie.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/Cute Chick Pie.unity3d?Cute Chick Pie.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Morganic"/>
 	<property name="Stacknumber" value="250"/>
 	<property name="EconomicValue" value="100"/>
@@ -1059,7 +1182,7 @@
 	<effect_group tiered="false" name="Drink Tier Found">
 		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
 		
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="75"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="55"/>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="20"/>
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
 			
@@ -1095,6 +1218,207 @@
 	<property name="EconomicBundleSize" value="10"/>
 	<property name="SellableToTrader" value="false"/>
 	<property name="Group" value="Resources"/>
+</item>
+
+<item name="RyuSen101s Ramen Noodles">
+	<property name="HoldType" value="31"/>
+	<property name="DescriptionKey" value="RyuSen101sRamenDesc"/>
+	<property name="CustomIcon" value="RyuSen101s Ramen Noodles"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<property class="Action0">
+	<property name="Class" value="Eat"/>
+	<property name="Delay" value="1.0"/>
+	<property name="Use_time" value="..."/>
+	<property name="Sound_start" value="player_eating"/>
+	</property>
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="55"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="ScyFangs Sweet Pumpkin Pie">
+	<property name="HoldType" value="31"/>
+	<property name="DescriptionKey" value="ScyFangsPumpkinPieDesc"/>
+	<property name="CustomIcon" value="ScyFangs Sweet Pumpkin Pie"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/ScyFangs Sweet Pumpkin Pie.unity3d?ScyFangs Sweet Pumpkin Pie.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/ScyFangs Sweet Pumpkin Pie.unity3d?ScyFangs Sweet Pumpkin Pie.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<property class="Action0">
+	<property name="Class" value="Eat"/>
+	<property name="Delay" value="1.0"/>
+	<property name="Use_time" value="..."/>
+	<property name="Sound_start" value="player_eating"/>
+	</property>
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="MajorZNations MeatFeast Pizza">
+	<property name="HoldType" value="31"/>
+	<property name="DescriptionKey" value="MajorZNationsPizzaDesc"/>
+	<property name="CustomIcon" value="MajorZNations MeatFeast Pizza"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<property class="Action0">
+	<property name="Class" value="Eat"/>
+	<property name="Delay" value="1.0"/>
+	<property name="Use_time" value="..."/>
+	<property name="Sound_start" value="player_eating"/>
+	</property>
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="Tikkids Peppered Beef Strips">
+	<property name="HoldType" value="31"/>
+	<property name="DescriptionKey" value="TikkidsBeefStripsDesc"/>
+	<property name="CustomIcon" value="Tikkids Peppered Beef Strips"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<property class="Action0">
+	<property name="Class" value="Eat"/>
+	<property name="Delay" value="1.0"/>
+	<property name="Use_time" value="..."/>
+	<property name="Sound_start" value="player_eating"/>
+	</property>
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="Inxanitys Taco Surprise">
+	<property name="HoldType" value="31"/>
+	<property name="DescriptionKey" value="InxanitysTacoSurpriseDesc"/>
+	<property name="CustomIcon" value="Inxanitys Taco Surprise"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<property class="Action0">
+	<property name="Class" value="Eat"/>
+	<property name="Delay" value="1.0"/>
+	<property name="Use_time" value="..."/>
+	<property name="Sound_start" value="player_eating"/>
+	</property>
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="Coachs Chilli Donner Kebab">
+	<property name="HoldType" value="31"/>
+	<property name="DescriptionKey" value="CoachsDonnerKebabDesc"/>
+	<property name="CustomIcon" value="Coachs Chilli Donner Kebab"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<property class="Action0">
+	<property name="Class" value="Eat"/>
+	<property name="Delay" value="1.0"/>
+	<property name="Use_time" value="..."/>
+	<property name="Sound_start" value="player_eating"/>
+	</property>
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="TwistedAngels Peach Cobbler">
+	<property name="HoldType" value="31"/>
+	<property name="DescriptionKey" value="TwistedAngelsPeachCobblerDesc"/>
+	<property name="CustomIcon" value="TwistedAngels Peach Cobbler"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<property class="Action0">
+	<property name="Class" value="Eat"/>
+	<property name="Delay" value="1.0"/>
+	<property name="Use_time" value="..."/>
+	<property name="Sound_start" value="player_eating"/>
+	<property name="Create_item" value="drinkJarEmpty"/>
+	</property>
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="35"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="35"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="Takayans Sashimi">
+	<property name="HoldType" value="31"/>
+	<property name="DescriptionKey" value="TakayansSashimiDesc"/>
+	<property name="CustomIcon" value="Takayans Sashimi"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<property class="Action0">
+	<property name="Class" value="Eat"/>
+	<property name="Delay" value="1.0"/>
+	<property name="Use_time" value="..."/>
+	<property name="Sound_start" value="player_eating"/>
+	</property>
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="35"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="35"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
 </item>
 
 </append>
