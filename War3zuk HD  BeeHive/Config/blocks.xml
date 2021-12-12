@@ -1,0 +1,46 @@
+<configs>
+	
+<append xpath="/blocks">
+
+<block name="HDBeeHive">
+	<property name="CustomIcon" value="HD BeeHive" />
+	<property name="DescriptionKey" value="HDBeeHiveDesc"/>
+	<property name="Class" value="Workstation"/>
+	<property name="Material" value="Mwood"/>
+	<property name="MaxDamage" value="2000"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/HD BeeHive.unity3d?HD BeeHive"/> <!-- Purchased 4k Model With Donation Money & Licensed To War3zuk -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,2,2"/>
+	<property name="ParticleOffset" value="0,-.5,0"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="UnlockedBy" value="perkLivingOffTheLand"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="Workstation">
+		<property name="Modules" value="output"/>
+		<property name="CraftingAreaRecipes" value="HDBeeHive"/>
+	</property>
+	<property name="WorkstationIcon" value="ui_game_symbol_workbench"/>
+	<property name="OpenSound" value="open_workbench"/>
+	<property name="CloseSound" value="close_workbench"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="30"/>
+		<property name="resourceMechanicalParts" value="30"/>
+		<property name="resourceWood" value="100"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="20" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="10" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceForgedIron" count="2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="1500"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+	<property name="SortOrder1" value="70i0"/>
+</block>
+
+</append>
+</configs>

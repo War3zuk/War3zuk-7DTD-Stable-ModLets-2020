@@ -1,0 +1,60 @@
+<configs>
+	
+<append xpath="/recipes">
+	
+<recipe name="HDBeeHive" count="1" craft_time="30" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceNail" count="50"/>
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceWood" count="100"/>
+</recipe>
+
+<recipe name="HDHoneyExtractor" count="1" craft_time="30" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+<recipe name="HDHoneyKnife" count="1" craft_time="30" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+<recipe name="HDHoneyStrainer" count="1" craft_time="30" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+
+<recipe name="HD Honey Comb" count="20" craft_time="20" craft_tool="HDHoneyKnife" craft_area="HDBeeHive">
+	<ingredient name="Cute Baby Bee" count="20"/>
+</recipe>
+
+<recipe name="HD Honey" count="1" craft_time="20" craft_tool="HDHoneyStrainer" craft_area="HDBeeHive">
+	<ingredient name="HD Honey Comb" count="20"/>
+	<ingredient name="HD Refined Sugar" count="20"/>
+</recipe>
+
+<recipe name="HD Refined Sugar" count="10" craft_tool="HDHoneyExtractor" craft_time="20" craft_area="HDBeeHive">
+	<ingredient name="HD Honey Comb" count="20"/>
+</recipe>
+
+<recipe name="Honey Glazed ChickenWings" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="resourceAnimalFat" count="6"/>
+    <ingredient name="CuteBabyChick" count="8"/>
+	<ingredient name="HD Refined Sugar" count="10"/>
+	<ingredient name="HD Honey" count="2"/>
+	<ingredient name="foodCornMeal" count="4"/>
+</recipe>
+
+<recipe name="Honey Glazed ChickenNuggets" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="resourceAnimalFat" count="4"/>
+    <ingredient name="CuteBabyChick" count="6"/>
+	<ingredient name="HD Refined Sugar" count="10"/>
+	<ingredient name="HD Honey" count="1"/>
+	<ingredient name="foodCornMeal" count="4"/>
+</recipe>
+
+</append>
+</configs>

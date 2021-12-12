@@ -1,0 +1,21 @@
+Key,Source,Context,Changes,English
+
+HDBeeHiveDesc,,blocks,Workstation,Crft this in the HD WorkBench And Cultivate Bees for their honey.
+HDBeeHive,blocks,block,KgNone,HD Bee Hive,
+HDHoneyExtractor,items,Item,KgNone,HD Honey Extractor,
+HDHoneyKnife,items,Item,KgNone,HD Honey Knife,
+HDHoneyStrainer,items,Item,KgNone,HD Honey Strainer,
+
+HDHoneyCombDesc,items,,,Used to create HD Refined Sugar and used in recipes.
+HDRefinedSugarDesc,items,,,Used in certain types of recipes.
+HDHoneyExtractorDesc,items,,,Used to extract Honey.
+HDHoneyKnifeDesc,items,,,Used to extract Honey.
+HDHoneyStrainerDesc,items,,,Used to extract Honey.
+CuteBabyBeeDesc,items,,,Cute baby Bumble Bee. Umm useful for something right !!.
+HoneyGlazedChickenWingsDesc,items,,,Full of Energy. Great for Stamina Regen And Food.
+HDHoneyDesc,items,,,A very powerful antibiotic for all those infections.
+HoneyGlazedChickenNuggetsDesc,items,,,Full of Energy. Great for Stamina Regen And Food.
+
+
+
+

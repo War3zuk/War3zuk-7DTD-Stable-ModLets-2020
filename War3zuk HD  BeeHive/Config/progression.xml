@@ -1,0 +1,6 @@
+<configs>
+
+	<append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@level='1,3']/@tags">,HDHoneyKnife,HDHoneyExtractor</append>
+	<append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@level='2,3']/@tags">,HDHoneyStrainer,HDBeeHive</append>
+	
+</configs>

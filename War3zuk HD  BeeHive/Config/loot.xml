@@ -1,0 +1,11 @@
+<configs>
+	
+<append xpath="/lootcontainers/lootcontainer[@id='25']">	
+	<item name="Cute Baby Bee" count="2,4" prob="0.5"/>
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='35']">	
+	<item name="Cute Baby Bee" count="2,4" prob="0.5"/>
+</append>
+
+</configs>
