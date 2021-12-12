@@ -41,19 +41,38 @@
 </recipe>
 
 <recipe name="Honey Glazed ChickenWings" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
-	<ingredient name="resourceAnimalFat" count="6"/>
-    <ingredient name="CuteBabyChick" count="8"/>
+	<ingredient name="resourceAnimalFat" count="10"/>
+    <ingredient name="CuteBabyChick" count="10"/>
 	<ingredient name="HD Refined Sugar" count="10"/>
 	<ingredient name="HD Honey" count="2"/>
 	<ingredient name="foodCornMeal" count="4"/>
 </recipe>
 
 <recipe name="Honey Glazed ChickenNuggets" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
-	<ingredient name="resourceAnimalFat" count="4"/>
-    <ingredient name="CuteBabyChick" count="6"/>
+	<ingredient name="resourceAnimalFat" count="10"/>
+    <ingredient name="CuteBabyChick" count="10"/>
 	<ingredient name="HD Refined Sugar" count="10"/>
-	<ingredient name="HD Honey" count="1"/>
-	<ingredient name="foodCornMeal" count="4"/>
+	<ingredient name="HD Honey" count="2"/>
+	<ingredient name="foodCornMeal" count="10"/>
+</recipe>
+
+<recipe name="Honey Glazed Ham" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="foodRawMeat" count="20"/>
+	<ingredient name="foodCornMeal" count="10"/>
+	<ingredient name="HD Honey" count="2"/>
+</recipe>
+
+<recipe name="Honey Glazed CornFlakes" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="foodCropCorn" count="20"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="HD Honey" count="2"/>
+</recipe>
+
+<recipe name="Honey Speed Bites" count="1" craft_time = "60" >
+	<ingredient name="drugAntibiotics" count="2"/>
+	<ingredient name="drugHerbalAntibiotics" count="1"/>
+	<ingredient name="drugVitamins" count="2"/>
+	<ingredient name="HD Honey" count="2"/>
 </recipe>
 
 </append>
