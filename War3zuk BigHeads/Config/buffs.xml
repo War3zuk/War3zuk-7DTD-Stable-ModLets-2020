@@ -1,0 +1,21 @@
+<configs>
+	
+<append xpath="/buffs">
+	
+	<buff name="War3zukbighead">
+		<stack_type value="replace"/>
+		<duration value="21600"/>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="SetBigHead" enabled="true"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="SetBigHead" enabled="false"/>
+		</effect_group>
+
+		<effect_group>
+			<passive_effect name="HealthLoss" operation="perc_subtract" value=".5"/>
+		</effect_group>
+
+	</buff>
+	
+</append>
+</configs>
